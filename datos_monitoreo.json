@@ -13717,8 +13717,8 @@
     "max_dias_consecutivos": 6,
     "usar_laboratorio": true,
     "lab_nombre": "Laboratorio acreditado (San Isidro)",
-    "lab_lat": -12.097,
-    "lab_lon": -77.0365,
+    "lab_lat": 4.6679818768259125,
+    "lab_lon": -74.06806073554434,
     "lab_hora_desde": "08:00",
     "lab_hora_hasta": "18:00",
     "lab_dias": [
