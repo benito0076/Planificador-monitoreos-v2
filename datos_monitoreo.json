@@ -1,105 +1,376 @@
 {
   "personal": [
     {
-      "nombre": "Ana Quispe",
-      "cargo": "Especialista",
+      "nombre": "YULIETH DANIELA CALDERON GUISAO",
+      "cargo": "Técnico",
       "competencias": [
         "agua",
+        "aire",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "ANGIE PAOLA VILLAMIL VILLAMIL",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "CARLOS ALBERTO FONTALVO PEDRAZA",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "DAYRON HURTADO HURTADO",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "DIANA CAROLINA MACHADO SARMIENTO",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "DORLY SORAYA JIMENEZ JAIMES",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "EIDER ANTONIO QUEVEDO ÁLVAREZ",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "HAROLD MAURICIO ROJAS CORTES",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "aire",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "HEIDY JULIETH HERNANDEZ SANABRIA",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "JHON ANDERSON AGUDELO VELASQUEZ",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "aire",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "JHON DARWIN RÍOS RAMÍREZ",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "LUZ DAYANA ROMERO SUAREZ",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "NICOLAS GARCIA VILLEGAS",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "aire",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "EMERSON DE JESUS GARCES AGUILAR",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "OSCAR SAMUEL RAMIREZ REYES",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "FRANK GONZÁLEZ RAMÍREZ",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "suelo",
+        "sedimento",
+        "aire"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "OSCAR YESSID ORDUZ FERNANDEZ",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "suelo",
+        "sedimento",
+        "aire"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "PAOLA ANDREA MUÑOZ CAMPUZANO",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "suelo",
+        "sedimento",
+        "aire"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "DIANA MARCELA MOTIVAR CUITIVA",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "MARIA ALEJANDRA SIERRA PEREZ",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": false,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "VICTOR ALFONSO ALBARRACIN FERNANDEZ",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
+        "sedimento"
+      ],
+      "conduce": true,
+      "email": "",
+      "telefono": "",
+      "activo": true,
+      "habilitado_hasta": "",
+      "no_disponible": []
+    },
+    {
+      "nombre": "DALIS SELENA BARRETO ÁVILA",
+      "cargo": "Técnico",
+      "competencias": [
+        "agua",
+        "ruido",
+        "suelo",
         "sedimento",
         "biologico"
       ],
       "conduce": false,
-      "email": "ana.quispe@example.com",
+      "email": "",
       "telefono": "",
       "activo": true,
-      "habilitado_hasta": "2027-03-28",
+      "habilitado_hasta": "",
       "no_disponible": []
     },
     {
-      "nombre": "Luis Rojas",
+      "nombre": "ESTEBAN NICOLÁS MEDINA ROMERO",
       "cargo": "Técnico",
       "competencias": [
         "agua",
-        "suelo"
+        "ruido",
+        "suelo",
+        "sedimento",
+        "biologico"
       ],
       "conduce": true,
-      "email": "luis.rojas@example.com",
+      "email": "",
       "telefono": "",
       "activo": true,
-      "habilitado_hasta": "2026-10-11",
+      "habilitado_hasta": "",
       "no_disponible": []
-    },
-    {
-      "nombre": "Carla Mendoza",
-      "cargo": "Especialista",
-      "competencias": [
-        "aire",
-        "ruido"
-      ],
-      "conduce": false,
-      "email": "carla.mendoza@example.com",
-      "telefono": "",
-      "activo": true,
-      "habilitado_hasta": "2027-04-17",
-      "no_disponible": []
-    },
-    {
-      "nombre": "Jorge Salas",
-      "cargo": "Conductor",
-      "competencias": [
-        "ruido"
-      ],
-      "conduce": true,
-      "email": "jorge.salas@example.com",
-      "telefono": "",
-      "activo": true,
-      "habilitado_hasta": "2027-07-26",
-      "no_disponible": []
-    },
-    {
-      "nombre": "María Torres",
-      "cargo": "Técnico",
-      "competencias": [
-        "agua",
-        "efluente",
-        "suelo"
-      ],
-      "conduce": false,
-      "email": "maria.torres@example.com",
-      "telefono": "",
-      "activo": true,
-      "habilitado_hasta": "2027-02-26",
-      "no_disponible": []
-    },
-    {
-      "nombre": "Pedro Huamán",
-      "cargo": "Técnico",
-      "competencias": [
-        "aire",
-        "suelo"
-      ],
-      "conduce": true,
-      "email": "pedro.huaman@example.com",
-      "telefono": "",
-      "activo": true,
-      "habilitado_hasta": "2026-12-28",
-      "no_disponible": []
-    },
-    {
-      "nombre": "Rosa Flores",
-      "cargo": "Técnico",
-      "competencias": [
-        "agua",
-        "aire"
-      ],
-      "conduce": false,
-      "email": "rosa.flores@example.com",
-      "telefono": "",
-      "activo": true,
-      "habilitado_hasta": "2026-11-28",
-      "no_disponible": [
-        "2026-10-01"
-      ]
     }
   ],
   "vehiculos": [
