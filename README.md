@@ -41,6 +41,19 @@ Dependencias opcionales: `openpyxl` (exportar a Excel) y `folium` (mapas). Todo 
 - `programaciones/`: planes generados (un JSON por programación).
 - `salidas/`: archivos exportados.
 
+## Publicarlo en línea (Render)
+
+`render.yaml` describe el servicio: Python, disco persistente de 1 GB en `/var/data` y acceso protegido con usuario y contraseña. Variables de entorno:
+
+| Variable | Qué hace |
+|---|---|
+| `PLANIFICADOR_CLAVE` | Contraseña de acceso (obligatoria cuando `HOST` no es `127.0.0.1`; defínela en el panel de Render) |
+| `PLANIFICADOR_USUARIO` | Usuario (por defecto `admin`) |
+| `HOST` / `PORT` | Dirección y puerto (`0.0.0.0` en línea; Render define `PORT`) |
+| `DATOS_DIR` | Carpeta de datos, programaciones y salidas (el disco persistente); la primera vez se copia ahí `datos_monitoreo.json` |
+
+`/healthz` responde sin contraseña para el chequeo de salud del servicio. Los discos persistentes de Render requieren un plan de pago.
+
 ## Generar el ejecutable (Windows)
 
 ```bat

@@ -2,7 +2,10 @@
 
 from __future__ import annotations
 
+import base64
+import hmac
 import json
+import os
 import socket
 import threading
 import traceback
@@ -232,7 +235,9 @@ def atender(repo: Repositorio, metodo: str, partes: list[str], q: dict, cuerpo):
 # --------------------------------------------------------------------------- #
 # Servidor HTTP
 # --------------------------------------------------------------------------- #
-def crear_manejador(repo: Repositorio):
+def crear_manejador(repo: Repositorio, usuario: str = "", clave: str = ""):
+    esperado = base64.b64encode(f"{usuario}:{clave}".encode("utf-8")).decode() if clave else ""
+
     class Manejador(BaseHTTPRequestHandler):
         def log_message(self, *args) -> None:  # silencioso
             pass
@@ -251,9 +256,25 @@ def crear_manejador(repo: Repositorio):
             self._enviar(codigo, json.dumps(obj, ensure_ascii=False, default=str).encode("utf-8"),
                          "application/json; charset=utf-8")
 
+        def _autorizado(self) -> bool:
+            if not esperado:
+                return True
+            tipo, _, dato = self.headers.get("Authorization", "").partition(" ")
+            return tipo.lower() == "basic" and hmac.compare_digest(dato.strip(), esperado)
+
         def _procesar(self, metodo: str) -> None:
             url = urlparse(self.path)
             ruta = unquote(url.path)
+            if ruta == "/healthz":  # sin clave: lo consulta el servicio de alojamiento
+                return self._enviar(200, b"ok", "text/plain")
+            if not self._autorizado():
+                cuerpo = b"Acceso restringido"
+                self.send_response(401)
+                self.send_header("WWW-Authenticate", 'Basic realm="Planificador", charset="UTF-8"')
+                self.send_header("Content-Length", str(len(cuerpo)))
+                self.end_headers()
+                self.wfile.write(cuerpo)
+                return
             if metodo == "GET" and ruta in ("/", "/index.html"):
                 return self._enviar(200, PAGINA.read_bytes(), TIPOS[".html"])
             if metodo == "GET" and ruta.startswith("/salidas/"):
@@ -305,12 +326,19 @@ def puerto_libre(desde: int = 8765) -> int:
 
 
 def iniciar(repo: Repositorio, abrir: bool = True, puerto: int | None = None) -> None:
-    """Sirve la interfaz en 127.0.0.1 (solo este equipo) hasta Ctrl+C."""
-    puerto = puerto or puerto_libre()
-    servidor = ThreadingHTTPServer(("127.0.0.1", puerto), crear_manejador(repo))
-    url = f"http://127.0.0.1:{puerto}/"
+    """Sirve la interfaz hasta Ctrl+C. Por defecto solo en 127.0.0.1 (este equipo).
+    En línea: HOST=0.0.0.0, PORT y PLANIFICADOR_CLAVE (obligatoria fuera de 127.0.0.1)."""
+    host = os.environ.get("HOST", "127.0.0.1")
+    usuario = os.environ.get("PLANIFICADOR_USUARIO", "admin")
+    clave = os.environ.get("PLANIFICADOR_CLAVE", "")
+    local = host in ("127.0.0.1", "localhost")
+    if not local and not clave:
+        raise SystemExit("Para publicar la interfaz defina la variable PLANIFICADOR_CLAVE (contraseña de acceso).")
+    puerto = puerto or int(os.environ.get("PORT") or 0) or puerto_libre()
+    servidor = ThreadingHTTPServer((host, puerto), crear_manejador(repo, usuario, clave))
+    url = f"http://{host}:{puerto}/"
     print(f"\n  Interfaz gráfica en {url}\n  (deje esta ventana abierta; Ctrl+C para cerrar)")
-    if abrir:
+    if abrir and local:
         threading.Timer(0.8, webbrowser.open, (url,)).start()
     try:
         servidor.serve_forever()

@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: planificador-monitoreos
+    runtime: python
+    plan: starter            # los discos persistentes requieren un plan de pago
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py --web
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: HOST
+        value: 0.0.0.0
+      - key: DATOS_DIR
+        value: /var/data
+      - key: PLANIFICADOR_USUARIO
+        value: admin
+      - key: PLANIFICADOR_CLAVE
+        sync: false          # se define en el panel de Render, no en el repositorio
+    disk:
+      name: datos
+      mountPath: /var/data
+      sizeGB: 1
