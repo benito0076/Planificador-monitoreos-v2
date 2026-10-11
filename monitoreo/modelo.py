@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import calendar
 import json
+import os
+import shutil
 import sys
 import threading
 import uuid
@@ -14,6 +16,14 @@ from pathlib import Path
 # En un .exe (PyInstaller) los datos se guardan junto al ejecutable.
 CARPETA = (Path(sys.executable).parent if getattr(sys, "frozen", False)
            else Path(__file__).resolve().parent.parent)
+# En línea (Render) los datos van a un disco persistente: DATOS_DIR=/var/data. La primera vez
+# se copian ahí los datos incluidos en el proyecto.
+_DATOS_INICIALES = CARPETA / "datos_monitoreo.json"
+if os.environ.get("DATOS_DIR"):
+    CARPETA = Path(os.environ["DATOS_DIR"])
+    CARPETA.mkdir(parents=True, exist_ok=True)
+    if not (CARPETA / "datos_monitoreo.json").exists() and _DATOS_INICIALES.exists():
+        shutil.copy(_DATOS_INICIALES, CARPETA / "datos_monitoreo.json")
 ARCHIVO_DATOS = CARPETA / "datos_monitoreo.json"
 ARCHIVO_CACHE_OSRM = CARPETA / "cache_osrm.json"
 CARPETA_SALIDAS = CARPETA / "salidas"
