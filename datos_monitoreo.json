@@ -1783,6 +1783,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos"
     },
     {
@@ -1806,6 +1807,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos"
     },
     {
@@ -1829,6 +1831,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos"
     },
     {
@@ -1852,6 +1855,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos"
     },
     {
@@ -1875,6 +1879,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos"
     },
     {
@@ -1898,6 +1903,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos"
     },
     {
@@ -1921,6 +1927,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Suerte"
     },
     {
@@ -1944,6 +1951,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Suerte"
     },
     {
@@ -1967,6 +1975,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Suerte"
     },
     {
@@ -1990,6 +1999,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Suerte"
     },
     {
@@ -2013,6 +2023,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -2036,6 +2047,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -2059,6 +2071,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2082,6 +2095,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2105,6 +2119,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2128,6 +2143,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2151,6 +2167,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2174,6 +2191,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Tisquirama-San Roque"
     },
     {
@@ -2197,6 +2215,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Tisquirama-San Roque"
     },
     {
@@ -2220,6 +2239,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos"
     },
     {
@@ -2243,6 +2263,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -2266,6 +2287,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -2289,6 +2311,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -2312,6 +2335,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2335,6 +2359,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2358,6 +2383,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2381,6 +2407,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2404,6 +2431,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2427,6 +2455,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2450,6 +2479,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2473,6 +2503,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2496,6 +2527,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2519,6 +2551,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2542,6 +2575,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -2565,6 +2599,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Suerte"
     },
     {
@@ -2588,6 +2623,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Suerte"
     },
     {
@@ -2611,6 +2647,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos"
     },
     {
@@ -2634,6 +2671,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos"
     },
     {
@@ -2657,6 +2695,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2680,6 +2719,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2703,6 +2743,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2726,6 +2767,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2749,6 +2791,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2772,6 +2815,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2795,6 +2839,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2818,6 +2863,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2841,6 +2887,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2864,6 +2911,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2887,6 +2935,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2910,6 +2959,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2933,6 +2983,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2956,6 +3007,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -2979,6 +3031,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3002,6 +3055,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3025,6 +3079,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3048,6 +3103,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3071,6 +3127,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3094,6 +3151,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3117,6 +3175,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3140,6 +3199,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3163,6 +3223,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -3186,6 +3247,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Suerte"
     },
     {
@@ -3209,6 +3271,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -3232,6 +3295,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -3255,6 +3319,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -3278,6 +3343,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -3301,6 +3367,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -3324,6 +3391,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -3347,6 +3415,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -3370,6 +3439,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -3393,6 +3463,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Estación Santos, Estación Suerte"
     },
     {
@@ -3416,6 +3487,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Liebre"
     },
     {
@@ -3439,6 +3511,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Liebre"
     },
     {
@@ -3462,6 +3535,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Liebre"
     },
     {
@@ -3485,6 +3559,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Liebre"
     },
     {
@@ -3508,6 +3583,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Liebre"
     },
     {
@@ -3531,6 +3607,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Liebre"
     },
     {
@@ -3554,6 +3631,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -3577,6 +3655,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -3600,6 +3679,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -3623,6 +3703,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -3646,6 +3727,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Bonanza"
     },
     {
@@ -3669,6 +3751,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3692,6 +3775,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3715,6 +3799,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3738,6 +3823,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GGS",
       "campo": "Provincia"
     },
     {
@@ -3761,6 +3847,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -3784,6 +3871,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -3807,6 +3895,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro"
     },
     {
@@ -3830,6 +3919,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro"
     },
     {
@@ -3853,6 +3943,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -3876,6 +3967,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -3899,6 +3991,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -3922,6 +4015,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -3945,6 +4039,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -3968,6 +4063,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -3991,6 +4087,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4014,6 +4111,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4037,6 +4135,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4060,6 +4159,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4083,6 +4183,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4106,6 +4207,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4129,6 +4231,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4152,6 +4255,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4175,6 +4279,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4198,6 +4303,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4221,6 +4327,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4244,6 +4351,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4267,6 +4375,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4290,6 +4399,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4313,6 +4423,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4336,6 +4447,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4359,6 +4471,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4382,6 +4495,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4405,6 +4519,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4428,6 +4543,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4451,6 +4567,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4474,6 +4591,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4497,6 +4615,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4520,6 +4639,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4543,6 +4663,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4566,6 +4687,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4589,6 +4711,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4612,6 +4735,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4635,6 +4759,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4658,6 +4783,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4681,6 +4807,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -4704,6 +4831,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -4727,6 +4855,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -4750,6 +4879,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -4773,6 +4903,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4796,6 +4927,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4819,6 +4951,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4842,6 +4975,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4865,6 +4999,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4888,6 +5023,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4911,6 +5047,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4934,6 +5071,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4957,6 +5095,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -4980,6 +5119,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5003,6 +5143,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5026,6 +5167,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5049,6 +5191,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5072,6 +5215,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5095,6 +5239,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5118,6 +5263,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5141,6 +5287,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5164,6 +5311,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5187,6 +5335,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5210,6 +5359,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5233,6 +5383,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5256,6 +5407,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5279,6 +5431,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5302,6 +5455,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Centro, Lisama, Llanito"
     },
     {
@@ -5325,6 +5479,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5348,6 +5503,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5371,6 +5527,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5394,6 +5551,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5417,6 +5575,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5440,6 +5599,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5463,6 +5623,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5486,6 +5647,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5509,6 +5671,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5532,6 +5695,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5555,6 +5719,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5578,6 +5743,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5601,6 +5767,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5624,6 +5791,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5647,6 +5815,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5670,6 +5839,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5693,6 +5863,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5716,6 +5887,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5739,6 +5911,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5762,6 +5935,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5785,6 +5959,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -5808,6 +5983,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Nutria"
     },
     {
@@ -5831,6 +6007,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Nutria"
     },
     {
@@ -5854,6 +6031,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Nutria"
     },
     {
@@ -5877,6 +6055,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5900,6 +6079,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5923,6 +6103,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5946,6 +6127,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5969,6 +6151,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -5992,6 +6175,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6015,6 +6199,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6038,6 +6223,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6061,6 +6247,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Gala"
     },
     {
@@ -6084,6 +6271,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Gala"
     },
     {
@@ -6107,6 +6295,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Galán"
     },
     {
@@ -6130,6 +6319,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Gala"
     },
     {
@@ -6153,6 +6343,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Gala"
     },
     {
@@ -6176,6 +6367,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Aullador"
     },
     {
@@ -6199,6 +6391,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Aullador"
     },
     {
@@ -6222,6 +6415,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Aullador"
     },
     {
@@ -6245,6 +6439,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Aullador"
     },
     {
@@ -6268,6 +6463,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Aullador"
     },
     {
@@ -6291,6 +6487,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Aullador"
     },
     {
@@ -6314,6 +6511,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6337,6 +6535,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6360,6 +6559,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6383,6 +6583,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6406,6 +6607,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6429,6 +6631,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6452,6 +6655,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6475,6 +6679,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6498,6 +6703,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6521,6 +6727,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Tisquirama"
     },
     {
@@ -6544,6 +6751,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6567,6 +6775,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6590,6 +6799,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6613,6 +6823,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6636,6 +6847,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6659,6 +6871,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6682,6 +6895,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6705,6 +6919,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6728,6 +6943,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6751,6 +6967,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6774,6 +6991,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6797,6 +7015,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6820,6 +7039,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6843,6 +7063,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6866,6 +7087,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6889,6 +7111,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Llanito"
     },
     {
@@ -6912,6 +7135,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GRM",
       "campo": "Lisama"
     },
     {
@@ -6935,6 +7159,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -6958,6 +7183,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -6981,6 +7207,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7004,6 +7231,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7027,6 +7255,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7050,6 +7279,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7073,6 +7303,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7096,6 +7327,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7119,6 +7351,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7142,6 +7375,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7165,6 +7399,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7188,6 +7423,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7211,6 +7447,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7234,6 +7471,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7257,6 +7495,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7280,6 +7519,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7303,6 +7543,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7326,6 +7567,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7349,6 +7591,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7372,6 +7615,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7395,6 +7639,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7418,6 +7663,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7441,6 +7687,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7464,6 +7711,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7487,6 +7735,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7510,6 +7759,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7533,6 +7783,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7556,6 +7807,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7579,6 +7831,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7602,6 +7855,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7625,6 +7879,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7648,6 +7903,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7671,6 +7927,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7694,6 +7951,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7717,6 +7975,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7740,6 +7999,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7763,6 +8023,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7786,6 +8047,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7809,6 +8071,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7832,6 +8095,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7855,6 +8119,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7878,6 +8143,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7901,6 +8167,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7924,6 +8191,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7947,6 +8215,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7970,6 +8239,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -7993,6 +8263,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8016,6 +8287,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8039,6 +8311,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8062,6 +8335,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8085,6 +8359,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8108,6 +8383,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8131,6 +8407,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8154,6 +8431,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8177,6 +8455,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8200,6 +8479,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8223,6 +8503,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8246,6 +8527,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8269,6 +8551,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8292,6 +8575,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8315,6 +8599,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8338,6 +8623,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8361,6 +8647,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8384,6 +8671,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8407,6 +8695,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8430,6 +8719,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8453,6 +8743,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8476,6 +8767,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8499,6 +8791,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8522,6 +8815,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8545,6 +8839,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8568,6 +8863,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8591,6 +8887,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8614,6 +8911,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8637,6 +8935,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8660,6 +8959,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8683,6 +8983,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8706,6 +9007,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8729,6 +9031,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8752,6 +9055,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8775,6 +9079,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8798,6 +9103,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8821,6 +9127,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8844,6 +9151,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8867,6 +9175,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8890,6 +9199,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8913,6 +9223,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8936,6 +9247,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8959,6 +9271,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -8982,6 +9295,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9005,6 +9319,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9028,6 +9343,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9051,6 +9367,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9074,6 +9391,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9097,6 +9415,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9120,6 +9439,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9143,6 +9463,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9166,6 +9487,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9189,6 +9511,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9212,6 +9535,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9235,6 +9559,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9258,6 +9583,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9281,6 +9607,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9304,6 +9631,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9327,6 +9655,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9350,6 +9679,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9373,6 +9703,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9396,6 +9727,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9419,6 +9751,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9442,6 +9775,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9465,6 +9799,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9488,6 +9823,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9511,6 +9847,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9534,6 +9871,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9557,6 +9895,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9580,6 +9919,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9603,6 +9943,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9626,6 +9967,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9649,6 +9991,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9672,6 +10015,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9695,6 +10039,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9718,6 +10063,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9741,6 +10087,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9764,6 +10111,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9787,6 +10135,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9810,6 +10159,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9833,6 +10183,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9856,6 +10207,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9879,6 +10231,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9902,6 +10255,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9925,6 +10279,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9948,6 +10303,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9971,6 +10327,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -9994,6 +10351,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10017,6 +10375,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10040,6 +10399,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10063,6 +10423,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10086,6 +10447,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10109,6 +10471,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10132,6 +10495,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10155,6 +10519,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10178,6 +10543,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10201,6 +10567,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10224,6 +10591,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10247,6 +10615,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10270,6 +10639,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10293,6 +10663,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10316,6 +10687,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10339,6 +10711,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10362,6 +10735,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10385,6 +10759,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10408,6 +10783,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10431,6 +10807,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10454,6 +10831,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10477,6 +10855,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10500,6 +10879,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10523,6 +10903,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10546,6 +10927,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10569,6 +10951,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10592,6 +10975,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10615,6 +10999,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10638,6 +11023,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10661,6 +11047,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10684,6 +11071,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10707,6 +11095,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10730,6 +11119,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10753,6 +11143,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10776,6 +11167,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10799,6 +11191,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10822,6 +11215,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10845,6 +11239,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10868,6 +11263,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10891,6 +11287,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10914,6 +11311,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10937,6 +11335,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10960,6 +11359,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -10983,6 +11383,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11006,6 +11407,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11029,6 +11431,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11052,6 +11455,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11075,6 +11479,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11098,6 +11503,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11121,6 +11527,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11144,6 +11551,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11167,6 +11575,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11190,6 +11599,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11213,6 +11623,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11236,6 +11647,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11259,6 +11671,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11282,6 +11695,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11305,6 +11719,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11328,6 +11743,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11351,6 +11767,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11374,6 +11791,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11397,6 +11815,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11420,6 +11839,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11443,6 +11863,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11466,6 +11887,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11489,6 +11911,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11512,6 +11935,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11535,6 +11959,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11558,6 +11983,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11581,6 +12007,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11604,6 +12031,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11627,6 +12055,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11650,6 +12079,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11673,6 +12103,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11696,6 +12127,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11719,6 +12151,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11742,6 +12175,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11765,6 +12199,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11788,6 +12223,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "GCT",
       "campo": "Cira-Infantas"
     },
     {
@@ -11811,6 +12247,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Pavas Cáchira"
     },
     {
@@ -11834,6 +12271,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Pavas Cáchira"
     },
     {
@@ -11857,6 +12295,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Pavas Cáchira"
     },
     {
@@ -11880,6 +12319,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Pavas Cáchira"
     },
     {
@@ -11903,6 +12343,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Pavas Cáchira"
     },
     {
@@ -11926,6 +12367,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Pavas Cáchira"
     },
     {
@@ -11949,6 +12391,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Pavas Cáchira"
     },
     {
@@ -11972,6 +12415,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Pavas Cáchira"
     },
     {
@@ -11995,6 +12439,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Pavas Cáchira"
     },
     {
@@ -12018,6 +12463,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12041,6 +12487,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12064,6 +12511,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12087,6 +12535,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12110,6 +12559,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12133,6 +12583,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12156,6 +12607,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12179,6 +12631,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12202,6 +12655,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12225,6 +12679,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12248,6 +12703,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12271,6 +12727,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12294,6 +12751,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12317,6 +12775,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Doña María"
     },
     {
@@ -12340,6 +12799,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Toca"
     },
     {
@@ -12363,6 +12823,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Toca"
     },
     {
@@ -12386,6 +12847,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12409,6 +12871,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12432,6 +12895,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12455,6 +12919,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12478,6 +12943,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12501,6 +12967,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12524,6 +12991,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12547,6 +13015,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12570,6 +13039,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12593,6 +13063,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12616,6 +13087,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12639,6 +13111,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12662,6 +13135,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12685,6 +13159,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12708,6 +13183,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12731,6 +13207,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12754,6 +13231,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12777,6 +13255,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12800,6 +13279,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12823,6 +13303,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12846,6 +13327,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12869,6 +13351,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12892,6 +13375,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12915,6 +13399,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12938,6 +13423,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12961,6 +13447,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -12984,6 +13471,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -13007,6 +13495,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -13030,6 +13519,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -13053,6 +13543,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -13076,6 +13567,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -13099,6 +13591,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -13122,6 +13615,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -13145,6 +13639,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -13168,6 +13663,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Petrolea"
     },
     {
@@ -13191,6 +13687,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Barranca Lebrija"
     },
     {
@@ -13214,6 +13711,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Barranca Lebrija"
     },
     {
@@ -13237,6 +13735,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Barranca Lebrija"
     },
     {
@@ -13260,6 +13759,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Barranca Lebrija"
     },
     {
@@ -13283,6 +13783,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Barranca Lebrija"
     },
     {
@@ -13306,6 +13807,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Barranca Lebrija"
     },
     {
@@ -13329,6 +13831,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Barranca Lebrija"
     },
     {
@@ -13352,6 +13855,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Barranca Lebrija"
     },
     {
@@ -13375,6 +13879,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13398,6 +13903,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13421,6 +13927,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13444,6 +13951,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13467,6 +13975,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13490,6 +13999,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13513,6 +14023,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13536,6 +14047,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13559,6 +14071,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13582,6 +14095,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13605,6 +14119,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13628,6 +14143,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13651,6 +14167,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13674,6 +14191,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13697,6 +14215,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13720,6 +14239,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13743,6 +14263,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Colorado"
     },
     {
@@ -13766,6 +14287,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13789,6 +14311,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13812,6 +14335,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13835,6 +14359,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13858,6 +14383,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13881,6 +14407,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13904,6 +14431,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13927,6 +14455,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13950,6 +14479,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13973,6 +14503,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -13996,6 +14527,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -14019,6 +14551,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -14042,6 +14575,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -14065,6 +14599,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -14088,6 +14623,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -14111,6 +14647,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -14134,6 +14671,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Las Quinchas"
     },
     {
@@ -14157,6 +14695,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Planta Plato"
     },
     {
@@ -14180,6 +14719,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Planta Plato"
     },
     {
@@ -14203,6 +14743,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Planta Plato"
     },
     {
@@ -14226,6 +14767,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Planta Plato"
     },
     {
@@ -14249,6 +14791,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Planta Plato"
     },
     {
@@ -14272,6 +14815,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Planta Plato"
     },
     {
@@ -14295,6 +14839,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Planta Plato"
     },
     {
@@ -14318,6 +14863,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Planta Plato"
     },
     {
@@ -14341,6 +14887,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14364,6 +14911,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14387,6 +14935,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14410,6 +14959,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14433,6 +14983,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14456,6 +15007,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14479,6 +15031,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14502,6 +15055,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14525,6 +15079,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14548,6 +15103,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14571,6 +15127,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14594,6 +15151,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14617,6 +15175,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14640,6 +15199,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14663,6 +15223,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14686,6 +15247,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14709,6 +15271,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14732,6 +15295,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14755,6 +15319,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14778,6 +15343,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14801,6 +15367,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14824,6 +15391,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14847,6 +15415,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14870,6 +15439,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14893,6 +15463,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14916,6 +15487,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14939,6 +15511,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14962,6 +15535,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -14985,6 +15559,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15008,6 +15583,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15031,6 +15607,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15054,6 +15631,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15077,6 +15655,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15100,6 +15679,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15123,6 +15703,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15146,6 +15727,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15169,6 +15751,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15192,6 +15775,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15215,6 +15799,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15238,6 +15823,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15261,6 +15847,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15284,6 +15871,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15307,6 +15895,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15330,6 +15919,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15353,6 +15943,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15376,6 +15967,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15399,6 +15991,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15422,6 +16015,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15445,6 +16039,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15468,6 +16063,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15491,6 +16087,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15514,6 +16111,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15537,6 +16135,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15560,6 +16159,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     },
     {
@@ -15583,6 +16183,7 @@
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
       "ultimo_monitoreo": "",
+      "gerencia": "",
       "campo": "Totumal"
     }
   ],
