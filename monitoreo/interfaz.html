@@ -416,6 +416,8 @@ function vPlanificar(m) {
   const hasta = h("input", {type: "date", value: en30});
   const matrices = control({nombre: "m", etiqueta: "Matrices", tipo: "multi",
     opciones: [...new Set(activos.map(p => p.matriz))]}, []);
+  const campos = control({nombre: "c", etiqueta: "Filtrar por campo (vacío = todos)", tipo: "multi",
+    opciones: [...new Set(activos.flatMap(p => (p.campo || "").split(",").map(c => c.trim()).filter(Boolean)))].sort()}, []);
   const cajas = activos.map(p => [p.codigo, h("input", {type: "checkbox", checked: true})]);
   const elegir = h("div", {class: "checks"}, cajas.map(([c, cb], i) =>
     h("label", {title: activos[i].nombre}, cb, c)));
@@ -431,7 +433,7 @@ function vPlanificar(m) {
   const panel = h("div", {class: "panel"},
     h("h2", {}, "Generar programación"),
     h("div", {class: "form"},
-      h("label", {class: "ancho"}, h("span", {}, "Puntos a programar"), modo), h("div", {class: "ancho"}, opcion),
+      h("label", {class: "ancho"}, h("span", {}, "Puntos a programar"), modo), h("div", {class: "ancho"}, opcion), h("div", {class: "ancho"}, h("span", {class: "muted"}, "Filtrar por campo (se combina con lo anterior; sin marcar = todos)"), campos.el),
       h("label", {}, h("span", {}, "Fecha de inicio"), inicio),
       h("label", {}, h("span", {}, "Máximo de días de campo"), maxDias),
       h("label", {class: "ancho"}, h("span", {}, "Nombre (opcional)"), nombre)),
@@ -440,7 +442,7 @@ function vPlanificar(m) {
       h("button", {onclick: verMatriz}, "Ver matriz de tiempos")));
   m.append(panel);
   async function generar() {
-    const sel = {modo: modo.value, hasta: hasta.value, matrices: matrices.get(),
+    const sel = {modo: modo.value, hasta: hasta.value, matrices: matrices.get(), campos: campos.get(),
       codigos: cajas.filter(([, cb]) => cb.checked).map(([c]) => c)};
     toast("Planificando…", 20000);
     const v = await conCarga(panel, () => api("POST", "planificar",

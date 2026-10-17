@@ -352,6 +352,12 @@ def seleccionar_puntos(repo: Repositorio):
     elif op == "4":
         sel = {x.strip().upper() for x in input("Códigos (separados por comas): ").split(",")}
         activos = [p for p in activos if p.codigo in sel]
+    campos = sorted({c for p in activos for c in p.campos()})
+    if campos:
+        print("  Campos: " + ", ".join(campos))
+        f = {x.strip().lower() for x in input("  Filtrar por campo (separados por comas; Enter = todos): ").split(",") if x.strip()}
+        if f:
+            activos = [p for p in activos if f & {c.lower() for c in p.campos()}]
     print(f"  Seleccionados: {len(activos)} punto(s)")
     return activos
 

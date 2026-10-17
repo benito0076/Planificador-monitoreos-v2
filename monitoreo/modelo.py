@@ -144,6 +144,10 @@ class Punto:
     duracion_retiro_min: int = 30
     frecuencia: str = "unica"
     ultimo_monitoreo: str = ""
+    campo: str = ""                 # campo o activo; varios separados por coma ("Centro, Lisama")
+
+    def campos(self) -> list[str]:
+        return [c.strip() for c in self.campo.split(",") if c.strip()]
 
     def proxima_fecha(self) -> date | None:
         """Fecha del siguiente monitoreo; date.min = nunca realizado; None = único ya realizado."""
@@ -257,6 +261,7 @@ ESQUEMAS: dict[str, dict] = {
         Campo("lat", "Latitud", "float", requerido=True),
         Campo("lon", "Longitud", "float", requerido=True),
         Campo("matriz", "Matriz", "select", MATRICES),
+        Campo("campo", "Campo / activo", ayuda="para filtrar al planificar; varios separados por coma"),
         Campo("duracion_min", "Duración muestreo / instalación (min)", "int"),
         Campo("requiere_4x4", "Requiere 4x4", "bool"),
         Campo("acceso_min", "Caminata ida+vuelta (min)", "int"),
