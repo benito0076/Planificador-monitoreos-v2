@@ -31,6 +31,7 @@ CARPETA_PROGRAMACIONES = CARPETA / "programaciones"
 
 UMBRAL_SNAP_M = 500  # avisar si un punto queda a más de esto de la vía más cercana
 DIAS_ALERTA = 30     # anticipación de las alertas de vencimiento
+GERENCIAS = ["GCT", "GRM", "GGS", "GGN"]
 MATRICES = ["agua", "aire", "suelo", "ruido", "sedimento", "biologico", "efluente"]
 DIAS_SEMANA = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
 # Multiplicador de "costo" para elegir la siguiente tarea: menor = se atiende antes.
@@ -144,6 +145,7 @@ class Punto:
     duracion_retiro_min: int = 30
     frecuencia: str = "unica"
     ultimo_monitoreo: str = ""
+    gerencia: str = ""             # GCT, GRM, GGS o GGN
     campo: str = ""                 # campo o activo; varios separados por coma ("Centro, Lisama")
 
     def campos(self) -> list[str]:
@@ -261,6 +263,7 @@ ESQUEMAS: dict[str, dict] = {
         Campo("lat", "Latitud", "float", requerido=True),
         Campo("lon", "Longitud", "float", requerido=True),
         Campo("matriz", "Matriz", "select", MATRICES),
+        Campo("gerencia", "Gerencia", "select", GERENCIAS),
         Campo("campo", "Campo / activo", ayuda="para filtrar al planificar; varios separados por coma"),
         Campo("duracion_min", "Duración muestreo / instalación (min)", "int"),
         Campo("requiere_4x4", "Requiere 4x4", "bool"),

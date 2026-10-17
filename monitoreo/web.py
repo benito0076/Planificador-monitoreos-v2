@@ -71,6 +71,8 @@ def vista_plan(plan: Plan, d: dict, repo: Repositorio) -> dict:
 def seleccionar(repo: Repositorio, sel: dict) -> list:
     activos = [p for p in repo.puntos if p.activo]
     modo = sel.get("modo", "todos")
+    if gerencias := set(sel.get("gerencias") or []):  # primer filtro, sobre cualquier modo
+        activos = [p for p in activos if p.gerencia in gerencias]
     if modo == "vencen":
         hasta = date.fromisoformat(sel.get("hasta") or (date.today() + timedelta(days=30)).isoformat())
         activos = [p for p in activos if (f := p.proxima_fecha()) is not None and f <= hasta]

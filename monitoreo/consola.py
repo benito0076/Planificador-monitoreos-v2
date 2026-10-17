@@ -9,7 +9,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from .distancias import Distancias, nodos
-from .modelo import (BASE, CARPETA_SALIDAS, DIAS_SEMANA, ESQUEMA_CONFIG, ESQUEMAS, ESTADOS_PLAN, ESTADOS_TAREA,
+from .modelo import (GERENCIAS, BASE, CARPETA_SALIDAS, DIAS_SEMANA, ESQUEMA_CONFIG, ESQUEMAS, ESTADOS_PLAN, ESTADOS_TAREA,
                      FRECUENCIAS, MATRICES, SI, Campo, Repositorio, _crear, calcular_alertas, normalizar,
                      parse_hora)
 from .planificador import cumplimiento, evaluar_plan, plan_a_dict, planificar, resumen
@@ -338,6 +338,9 @@ def mostrar_alertas(repo: Repositorio) -> None:
 
 def seleccionar_puntos(repo: Repositorio):
     activos = [p for p in repo.puntos if p.activo]
+    g = {x.strip().upper() for x in input(f"\n  Gerencia ({', '.join(GERENCIAS)}; separadas por comas, Enter = todas): ").split(",") if x.strip()}
+    if g:
+        activos = [p for p in activos if p.gerencia in g]
     print(f"\n  Puntos activos: {len(activos)}")
     print("  1) Todos los activos\n  2) Solo los que vencen hasta una fecha (según frecuencia)"
           "\n  3) Por matriz\n  4) Códigos específicos")
