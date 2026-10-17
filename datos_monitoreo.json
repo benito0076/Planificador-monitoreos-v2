@@ -1782,7 +1782,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos"
     },
     {
       "codigo": "Q_GUT_DES",
@@ -1804,7 +1805,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos"
     },
     {
       "codigo": "CAÑ_SAB_DES",
@@ -1826,7 +1828,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos"
     },
     {
       "codigo": "Q_DIA_ANT_CNN",
@@ -1848,7 +1851,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos"
     },
     {
       "codigo": "Q_DIA_DES_RELL",
@@ -1870,7 +1874,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos"
     },
     {
       "codigo": "Q_DIA_50_ANT",
@@ -1892,7 +1897,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos"
     },
     {
       "codigo": "Q_DIA_50_DES",
@@ -1914,7 +1920,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Suerte"
     },
     {
       "codigo": "CAÑ_NN_50_ANT",
@@ -1936,7 +1943,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Suerte"
     },
     {
       "codigo": "CAÑ_NN_50_DES",
@@ -1958,7 +1966,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Suerte"
     },
     {
       "codigo": "CAÑ_ANT_DES_LAG",
@@ -1980,7 +1989,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Suerte"
     },
     {
       "codigo": "C_ABE_50_ANT",
@@ -2002,7 +2012,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "C_ABE_50_DES",
@@ -2024,7 +2035,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "SUB_SAN_GUT",
@@ -2046,7 +2058,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "FIL_PAY_PRO",
@@ -2068,7 +2081,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "LAG_EL_KK_PRO",
@@ -2090,7 +2104,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "FIL_CRIS_PRO",
@@ -2112,7 +2127,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "CABI_VERD",
@@ -2134,7 +2150,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "CIE_CUA_BOC",
@@ -2156,7 +2173,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama-San Roque"
     },
     {
       "codigo": "CIE_PITA_LIM",
@@ -2178,7 +2196,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama-San Roque"
     },
     {
       "codigo": "PLANTA_DE_TRATAMIENTO_ESTACI_N",
@@ -2200,7 +2219,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos"
     },
     {
       "codigo": "MSB-LAM1009-0005",
@@ -2222,7 +2242,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "MSB-LAM1009-0006",
@@ -2244,7 +2265,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "MSB-LAM1009-0007",
@@ -2266,7 +2288,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "E_SANTOS_PZ-5",
@@ -2288,7 +2311,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "E_SANTOS_PZ-6",
@@ -2310,7 +2334,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "E_SANTOS_PZ-7",
@@ -2332,7 +2357,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "E_SANTOS_PZ-8",
@@ -2354,7 +2380,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "E_SUERTE_PZ-1",
@@ -2376,7 +2403,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "E_SUERTE_PZ-2",
@@ -2398,7 +2426,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "E_SUERTE_PZ-3",
@@ -2420,7 +2449,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "E_SUERTE_PZ-4",
@@ -2442,7 +2472,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "A_RNO_SRIO_PM-1",
@@ -2464,7 +2495,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "A_RNO_SRIO_PM-2",
@@ -2486,7 +2518,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "A_RNO_SRIO_PM-3",
@@ -2508,7 +2541,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "MSB-LAM1009-0003",
@@ -2530,7 +2564,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Suerte"
     },
     {
       "codigo": "MSB-LAM1009-0004",
@@ -2552,7 +2587,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Suerte"
     },
     {
       "codigo": "MSB-LAM1009-0002",
@@ -2574,7 +2610,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos"
     },
     {
       "codigo": "MSB-LAM1009-0001",
@@ -2596,7 +2633,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos"
     },
     {
       "codigo": "ALJIBE_1",
@@ -2618,7 +2656,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "ALJIBE_2",
@@ -2640,7 +2679,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "ALJIBE_3",
@@ -2662,7 +2702,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "ALJIBE_4",
@@ -2684,7 +2725,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "POZO_5",
@@ -2706,7 +2748,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "ALJIBE_6",
@@ -2728,7 +2771,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "M25-2011-PROV",
@@ -2750,7 +2794,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "M27-2011-PROV",
@@ -2772,7 +2817,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "31-PROV",
@@ -2794,7 +2840,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "M28-2011-PROV",
@@ -2816,7 +2863,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "M30-2011-PROV",
@@ -2838,7 +2886,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "40-PROV",
@@ -2860,7 +2909,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "M26-2011-PROV",
@@ -2882,7 +2932,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "A10-2011-PROV",
@@ -2904,7 +2955,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "A-13-2011-PROV",
@@ -2926,7 +2978,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "M35-2011-PROV",
@@ -2948,7 +3001,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "MGTLR-26",
@@ -2970,7 +3024,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "MGTLR-27",
@@ -2992,7 +3047,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "P_346",
@@ -3014,7 +3070,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "MGTLR-1",
@@ -3036,7 +3093,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "A12-2011-PROV",
@@ -3058,7 +3116,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "M40-2011-PROV",
@@ -3080,7 +3139,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "POZ_SAN_FERM",
@@ -3102,7 +3162,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "CSP-LAM1009-0004",
@@ -3124,7 +3185,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Suerte"
     },
     {
       "codigo": "USEPTICA_118",
@@ -3146,7 +3208,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "USEPTICA_119",
@@ -3168,7 +3231,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "USEPTICA_121",
@@ -3190,7 +3254,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "USEPTICA_122",
@@ -3212,7 +3277,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "USEPTICA_123",
@@ -3234,7 +3300,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "USEPTICA_124",
@@ -3256,7 +3323,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "USEPTICA_125",
@@ -3278,7 +3346,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "USEPTICA_126",
@@ -3300,7 +3369,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "USEPTICA_127",
@@ -3322,7 +3392,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Estación Santos, Estación Suerte"
     },
     {
       "codigo": "Q_CHOCOITA",
@@ -3344,7 +3415,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Liebre"
     },
     {
       "codigo": "Q_CHOCOA",
@@ -3366,7 +3438,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Liebre"
     },
     {
       "codigo": "E1_F_RCREO",
@@ -3388,7 +3461,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Liebre"
     },
     {
       "codigo": "E2_F_MRGRT",
@@ -3410,7 +3484,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Liebre"
     },
     {
       "codigo": "E3_LBR1",
@@ -3432,7 +3507,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Liebre"
     },
     {
       "codigo": "E4_LBR2",
@@ -3454,7 +3530,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Liebre"
     },
     {
       "codigo": "MRA-LAM1009-0013",
@@ -3476,7 +3553,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "MRA-LAM1009-0015",
@@ -3498,7 +3576,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "MRA-LAM1009-0016",
@@ -3520,7 +3599,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "MRA-LAM1009-0018",
@@ -3542,7 +3622,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "MRA-LAM1009-0021",
@@ -3564,7 +3645,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Bonanza"
     },
     {
       "codigo": "MRA-LAM1009-0025",
@@ -3586,7 +3668,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "MRA-LAM1009-0026",
@@ -3608,7 +3691,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "MRA-LAM1009-0027",
@@ -3630,7 +3714,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "MRA-LAM1009-0028",
@@ -3652,7 +3737,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Provincia"
     },
     {
       "codigo": "MSP-LAM2249-0002",
@@ -3674,7 +3760,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0005",
@@ -3696,7 +3783,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0004",
@@ -3718,7 +3806,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro"
     },
     {
       "codigo": "MSP-LAM2249-0006",
@@ -3740,7 +3829,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro"
     },
     {
       "codigo": "MSP-LAM2249-0007",
@@ -3762,7 +3852,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "MSP-LAM2249-0014",
@@ -3784,7 +3875,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "MSP-LAM2249-0065",
@@ -3806,7 +3898,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0066",
@@ -3828,7 +3921,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0051",
@@ -3850,7 +3944,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0054",
@@ -3872,7 +3967,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0053",
@@ -3894,7 +3990,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0001",
@@ -3916,7 +4013,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0052",
@@ -3938,7 +4036,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0049",
@@ -3960,7 +4059,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0055",
@@ -3982,7 +4082,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0067",
@@ -4004,7 +4105,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0057",
@@ -4026,7 +4128,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0058",
@@ -4048,7 +4151,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0059",
@@ -4070,7 +4174,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0016",
@@ -4092,7 +4197,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0031",
@@ -4114,7 +4220,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0037",
@@ -4136,7 +4243,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0035",
@@ -4158,7 +4266,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0027",
@@ -4180,7 +4289,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0032",
@@ -4202,7 +4312,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0033",
@@ -4224,7 +4335,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0034",
@@ -4246,7 +4358,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0028",
@@ -4268,7 +4381,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0026",
@@ -4290,7 +4404,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0025",
@@ -4312,7 +4427,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0011",
@@ -4334,7 +4450,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0062",
@@ -4356,7 +4473,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0030",
@@ -4378,7 +4496,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0056",
@@ -4400,7 +4519,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0060",
@@ -4422,7 +4542,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0061",
@@ -4444,7 +4565,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSP-LAM2249-0063",
@@ -4466,7 +4588,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "CI_NAGA_EL_ZARZAL_CENTRO",
@@ -4488,7 +4611,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "CI_NAGA_EL_ZARZAL_NORTE",
@@ -4510,7 +4634,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "CI_NAGA_EL_ZARZAL_SUR",
@@ -4532,7 +4657,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0004",
@@ -4554,7 +4680,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "MSB-LAM2249-0003",
@@ -4576,7 +4703,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "MSB-LAM2249-0005",
@@ -4598,7 +4726,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "MSB-LAM2249-0001",
@@ -4620,7 +4749,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0048",
@@ -4642,7 +4772,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0049",
@@ -4664,7 +4795,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0050",
@@ -4686,7 +4818,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0052",
@@ -4708,7 +4841,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0053",
@@ -4730,7 +4864,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0055",
@@ -4752,7 +4887,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0058",
@@ -4774,7 +4910,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0059",
@@ -4796,7 +4933,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0062",
@@ -4818,7 +4956,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0063",
@@ -4840,7 +4979,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0064",
@@ -4862,7 +5002,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-065",
@@ -4884,7 +5025,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0066",
@@ -4906,7 +5048,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0067",
@@ -4928,7 +5071,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0068",
@@ -4950,7 +5094,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0073",
@@ -4972,7 +5117,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0074",
@@ -4994,7 +5140,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0075",
@@ -5016,7 +5163,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0076",
@@ -5038,7 +5186,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0079",
@@ -5060,7 +5209,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0080",
@@ -5082,7 +5232,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0081",
@@ -5104,7 +5255,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0082",
@@ -5126,7 +5278,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0083",
@@ -5148,7 +5301,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Centro, Lisama, Llanito"
     },
     {
       "codigo": "PZ-PRA-1",
@@ -5170,7 +5324,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "PZ-PRA-3",
@@ -5192,7 +5347,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "PZ-PRA-5",
@@ -5214,7 +5370,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "PM-51",
@@ -5236,7 +5393,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-52",
@@ -5258,7 +5416,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-53",
@@ -5280,7 +5439,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-54",
@@ -5302,7 +5462,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-55",
@@ -5324,7 +5485,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-56",
@@ -5346,7 +5508,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-57",
@@ -5368,7 +5531,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-58",
@@ -5390,7 +5554,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-59",
@@ -5412,7 +5577,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-60",
@@ -5434,7 +5600,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-61",
@@ -5456,7 +5623,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "PM-62",
@@ -5478,7 +5646,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "PM-63",
@@ -5500,7 +5669,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "PM-64",
@@ -5522,7 +5692,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "PM-66",
@@ -5544,7 +5715,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "PM-67",
@@ -5566,7 +5738,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "PM-68",
@@ -5588,7 +5761,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "PM-69",
@@ -5610,7 +5784,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "MSB-LAM2249-0112",
@@ -5632,7 +5807,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Nutria"
     },
     {
       "codigo": "MSB-LAM2249-003",
@@ -5654,7 +5830,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Nutria"
     },
     {
       "codigo": "MSB-LAM2249-0113",
@@ -5676,7 +5853,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Nutria"
     },
     {
       "codigo": "MSB-LAM2249-0114",
@@ -5698,7 +5876,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0115",
@@ -5720,7 +5899,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0116",
@@ -5742,7 +5922,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0117",
@@ -5764,7 +5945,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0118",
@@ -5786,7 +5968,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0119",
@@ -5808,7 +5991,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0120",
@@ -5830,7 +6014,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0121",
@@ -5852,7 +6037,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MSB-LAM2249-0124",
@@ -5874,7 +6060,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Gala"
     },
     {
       "codigo": "MSB-LAM2249-0125",
@@ -5896,7 +6083,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Gala"
     },
     {
       "codigo": "MSB-LAM2249-0123",
@@ -5918,7 +6106,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Galán"
     },
     {
       "codigo": "A-167",
@@ -5940,7 +6129,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Gala"
     },
     {
       "codigo": "A-169",
@@ -5962,7 +6152,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Gala"
     },
     {
       "codigo": "OCP_3_ARB",
@@ -5984,7 +6175,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Aullador"
     },
     {
       "codigo": "OCP_3_ABJ",
@@ -6006,7 +6198,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Aullador"
     },
     {
       "codigo": "OCP_2_ARB",
@@ -6028,7 +6221,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Aullador"
     },
     {
       "codigo": "OCP_2_ABJ",
@@ -6050,7 +6244,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Aullador"
     },
     {
       "codigo": "OCP_1_ARB",
@@ -6072,7 +6267,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Aullador"
     },
     {
       "codigo": "OCP_1_ABJ",
@@ -6094,7 +6290,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Aullador"
     },
     {
       "codigo": "CÑ_NN_ANT_TIS",
@@ -6116,7 +6313,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "CÑ_NN_DES_TIS",
@@ -6138,7 +6336,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "MSB-LAM1009-0008",
@@ -6160,7 +6359,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "MSB-LAM1009-0020",
@@ -6182,7 +6382,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "MSB-LAM1009-0024",
@@ -6204,7 +6405,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "MSB-LAM1009-0021",
@@ -6226,7 +6428,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "MSB-LAM1009-0022",
@@ -6248,7 +6451,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "MSB-LAM1009-0023",
@@ -6270,7 +6474,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "MSB-LAM1009-0018",
@@ -6292,7 +6497,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "MSB-LAM1009-0019",
@@ -6314,7 +6520,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Tisquirama"
     },
     {
       "codigo": "MCA-LAM2249-0004",
@@ -6336,7 +6543,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MCA-LAM2249-0005",
@@ -6358,7 +6566,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "MCA-LAM2249-0001",
@@ -6380,7 +6589,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "MCA-LAM2249-0002",
@@ -6402,7 +6612,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "MCA-LAM2249-0003",
@@ -6424,7 +6635,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "RA1_LIS_TESORO_SW",
@@ -6446,7 +6658,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "RA2_LIS_SATELITE_SE",
@@ -6468,7 +6681,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "RA3_LIS_COMPRS_SW",
@@ -6490,7 +6704,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "RA4_LIS_72_INST_AGROPC",
@@ -6512,7 +6727,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "RA5_LIS_CENTRAL_S",
@@ -6534,7 +6750,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "RA6_CEN_PDH_LIS_SW",
@@ -6556,7 +6773,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "RA1_LLAN_NORORIENTAL",
@@ -6578,7 +6796,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "RA2_LLAN_E_3",
@@ -6600,7 +6819,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "RA3_LLAN_E_GALA_SE",
@@ -6622,7 +6842,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "RA4_LLAN_PDH_CASA",
@@ -6644,7 +6865,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "TT1_LLAN_D2",
@@ -6666,7 +6888,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Llanito"
     },
     {
       "codigo": "TT_LIS_D1",
@@ -6688,7 +6911,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Lisama"
     },
     {
       "codigo": "SALIDA_LA_LLANA",
@@ -6710,7 +6934,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_CAMPO_23",
@@ -6732,7 +6957,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "BOMBA_PIA_5",
@@ -6754,7 +6980,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "TANQUE_K11",
@@ -6776,7 +7003,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "TANQUE_K09",
@@ -6798,7 +7026,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "BOCATOMA_CAMPO_50",
@@ -6820,7 +7049,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "BOCATOMA_CAMPO_23",
@@ -6842,7 +7072,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0013",
@@ -6864,7 +7095,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0014",
@@ -6886,7 +7118,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0033",
@@ -6908,7 +7141,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0021",
@@ -6930,7 +7164,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0020",
@@ -6952,7 +7187,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0022",
@@ -6974,7 +7210,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0025",
@@ -6996,7 +7233,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0023",
@@ -7018,7 +7256,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0024",
@@ -7040,7 +7279,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0026",
@@ -7062,7 +7302,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0027",
@@ -7084,7 +7325,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0028",
@@ -7106,7 +7348,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0029",
@@ -7128,7 +7371,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0031",
@@ -7150,7 +7394,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0042",
@@ -7172,7 +7417,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0041",
@@ -7194,7 +7440,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0016",
@@ -7216,7 +7463,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0017",
@@ -7238,7 +7486,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0015",
@@ -7260,7 +7509,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0018",
@@ -7282,7 +7532,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0044",
@@ -7304,7 +7555,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0045",
@@ -7326,7 +7578,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0046",
@@ -7348,7 +7601,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0040",
@@ -7370,7 +7624,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0030",
@@ -7392,7 +7647,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0032",
@@ -7414,7 +7670,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0047",
@@ -7436,7 +7693,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0034",
@@ -7458,7 +7716,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0038",
@@ -7480,7 +7739,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0037",
@@ -7502,7 +7762,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0036",
@@ -7524,7 +7785,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0035",
@@ -7546,7 +7808,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-002",
@@ -7568,7 +7831,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PZ-6",
@@ -7590,7 +7854,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0084",
@@ -7612,7 +7877,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0085",
@@ -7634,7 +7900,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0086",
@@ -7656,7 +7923,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0088",
@@ -7678,7 +7946,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0089",
@@ -7700,7 +7969,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0090",
@@ -7722,7 +7992,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0091",
@@ -7744,7 +8015,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0093",
@@ -7766,7 +8038,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0095",
@@ -7788,7 +8061,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0096",
@@ -7810,7 +8084,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-0099",
@@ -7832,7 +8107,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-00103",
@@ -7854,7 +8130,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-00104",
@@ -7876,7 +8153,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-00105",
@@ -7898,7 +8176,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSB-LAM2249-00106",
@@ -7920,7 +8199,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0045",
@@ -7942,7 +8222,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0020",
@@ -7964,7 +8245,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0021",
@@ -7986,7 +8268,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "D_LODOS",
@@ -8008,7 +8291,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0008",
@@ -8030,7 +8314,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0003",
@@ -8052,7 +8337,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0009",
@@ -8074,7 +8360,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0017",
@@ -8096,7 +8383,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0019",
@@ -8118,7 +8406,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0064",
@@ -8140,7 +8429,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0015",
@@ -8162,7 +8452,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0029",
@@ -8184,7 +8475,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0040",
@@ -8206,7 +8498,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0041",
@@ -8228,7 +8521,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0043",
@@ -8250,7 +8544,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0042",
@@ -8272,7 +8567,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0022",
@@ -8294,7 +8590,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0023",
@@ -8316,7 +8613,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0039",
@@ -8338,7 +8636,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0038",
@@ -8360,7 +8659,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0047",
@@ -8382,7 +8682,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0050",
@@ -8404,7 +8705,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MSP-LAM2249-0048",
@@ -8426,7 +8728,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "CIENAGA_CIRA_1",
@@ -8448,7 +8751,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "CIENAGA_CIRA_4",
@@ -8470,7 +8774,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "R_CASCAJALES_P1",
@@ -8492,7 +8797,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "R_CASCAJALE_P2",
@@ -8514,7 +8820,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "R_COLORADA_900M_AA",
@@ -8536,7 +8843,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "R_COLORADA_500M_AA",
@@ -8558,7 +8866,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "R_COLORADA_200M_AA",
@@ -8580,7 +8889,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "R_COLORADA_200M_AAB",
@@ -8602,7 +8912,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "R_COLORADA_500M_AAB",
@@ -8624,7 +8935,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "R_COLORADA_900M_AAB",
@@ -8646,7 +8958,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "11-SAN",
@@ -8668,7 +8981,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "28-SAN",
@@ -8690,7 +9004,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "46-SAN",
@@ -8712,7 +9027,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "47-SAN",
@@ -8734,7 +9050,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "73-SAN",
@@ -8756,7 +9073,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "85-SAN",
@@ -8778,7 +9096,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "90-SAN",
@@ -8800,7 +9119,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "91-SAN",
@@ -8822,7 +9142,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "94-SAN",
@@ -8844,7 +9165,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "US_NN_CIT",
@@ -8866,7 +9188,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "ISLA_DD_1",
@@ -8888,7 +9211,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_60",
@@ -8910,7 +9234,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_54",
@@ -8932,7 +9257,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_63",
@@ -8954,7 +9280,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_66",
@@ -8976,7 +9303,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_68",
@@ -8998,7 +9326,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_74",
@@ -9020,7 +9349,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_82",
@@ -9042,7 +9372,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "23-SAN",
@@ -9064,7 +9395,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "30-SAN",
@@ -9086,7 +9418,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "31-SAN",
@@ -9108,7 +9441,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "36-SAN",
@@ -9130,7 +9464,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "38-SAN",
@@ -9152,7 +9487,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "42-SAN",
@@ -9174,7 +9510,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "43-SAN",
@@ -9196,7 +9533,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "48-SAN",
@@ -9218,7 +9556,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "49-SAN",
@@ -9240,7 +9579,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "50-SAN",
@@ -9262,7 +9602,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "52-SAN",
@@ -9284,7 +9625,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "53-SAN",
@@ -9306,7 +9648,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "57-SAN",
@@ -9328,7 +9671,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "58-SAN",
@@ -9350,7 +9694,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "59-SAN",
@@ -9372,7 +9717,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "69-SAN",
@@ -9394,7 +9740,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "70-SAN",
@@ -9416,7 +9763,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "71-SAN",
@@ -9438,7 +9786,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "72-SAN",
@@ -9460,7 +9809,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "75-SAN",
@@ -9482,7 +9832,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "77-SAN",
@@ -9504,7 +9855,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "78-SAN",
@@ -9526,7 +9878,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "95-SAN",
@@ -9548,7 +9901,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "98-SAN",
@@ -9570,7 +9924,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "CASA_2017",
@@ -9592,7 +9947,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_152",
@@ -9614,7 +9970,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_64",
@@ -9636,7 +9993,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "SALIDA_65",
@@ -9658,7 +10016,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-8",
@@ -9680,7 +10039,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-10",
@@ -9702,7 +10062,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-12",
@@ -9724,7 +10085,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-13",
@@ -9746,7 +10108,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-14",
@@ -9768,7 +10131,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-15",
@@ -9790,7 +10154,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-16",
@@ -9812,7 +10177,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-17",
@@ -9834,7 +10200,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-19",
@@ -9856,7 +10223,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-20",
@@ -9878,7 +10246,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-26",
@@ -9900,7 +10269,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-31",
@@ -9922,7 +10292,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-32",
@@ -9944,7 +10315,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-34",
@@ -9966,7 +10338,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-35",
@@ -9988,7 +10361,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-36",
@@ -10010,7 +10384,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-37",
@@ -10032,7 +10407,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-43",
@@ -10054,7 +10430,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-44",
@@ -10076,7 +10453,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-45",
@@ -10098,7 +10476,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-46",
@@ -10120,7 +10499,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PM-47",
@@ -10142,7 +10522,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MCA-LAM2249-0006",
@@ -10164,7 +10545,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MCA-LAM2249-0007",
@@ -10186,7 +10568,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "MCA-LAM2249-0008",
@@ -10208,7 +10591,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA1_CEN_LCI_1_S",
@@ -10230,7 +10614,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA2_CEN_LCI_3_NE",
@@ -10252,7 +10637,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA3_CEN_LCI_3_NW",
@@ -10274,7 +10660,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA4_CEN_LCI_3_E",
@@ -10296,7 +10683,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA5_CEN_LCI_3A_SE",
@@ -10318,7 +10706,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA6_CEN_LCI_3A_W",
@@ -10340,7 +10729,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA7_CEN_PIA_3_MSO_PTRL",
@@ -10362,7 +10752,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA8_CEN_LCI_4_W",
@@ -10384,7 +10775,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA9_CEN_LCI_2_SE",
@@ -10406,7 +10798,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA10_CEN_PIA_5_W",
@@ -10428,7 +10821,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA11_CEN_PIA_5A_E",
@@ -10450,7 +10844,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA12_CEN_LCI_5_FNCA",
@@ -10472,7 +10867,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA13_CEN_EOLDCT_IGLESIA",
@@ -10494,7 +10890,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA15_CEN_PLNT_PRCS_S",
@@ -10516,7 +10913,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA16_CEN_LCI_6A_VIA_INFA2393",
@@ -10538,7 +10936,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA17_CEN_LCI6A_ALTMR",
@@ -10560,7 +10959,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA18_CEN_LCI_6_S",
@@ -10582,7 +10982,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA19_CEN_PIA_6_CASA",
@@ -10604,7 +11005,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA20_CEN_LCI_7_W",
@@ -10626,7 +11028,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA21_CEN_E_CAMPO23",
@@ -10648,7 +11051,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "RA22_CEN_ACUED_CAMPO23",
@@ -10670,7 +11074,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ASERRANO_C1",
@@ -10692,7 +11097,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ASERRANO_C2",
@@ -10714,7 +11120,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ASERRANO_AS1",
@@ -10736,7 +11143,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ASERRANO_AS2",
@@ -10758,7 +11166,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ASERRANO_AS3",
@@ -10780,7 +11189,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ASERRANO_SS1",
@@ -10802,7 +11212,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ASERRANO_SS2",
@@ -10824,7 +11235,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ASERRANO_SS3",
@@ -10846,7 +11258,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_Z24A_C1",
@@ -10868,7 +11281,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_AAR_AGUA",
@@ -10890,7 +11304,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_AAR_SED",
@@ -10912,7 +11327,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_AAB_AGUA",
@@ -10934,7 +11350,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_AAB_SED",
@@ -10956,7 +11373,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_C1",
@@ -10978,7 +11396,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_C2",
@@ -11000,7 +11419,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_C3",
@@ -11022,7 +11442,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_C4",
@@ -11044,7 +11465,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_C5",
@@ -11066,7 +11488,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_ERI_C6",
@@ -11088,7 +11511,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_AAR_AGUA",
@@ -11110,7 +11534,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_AAR_SED",
@@ -11132,7 +11557,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_AAB_AGUA",
@@ -11154,7 +11580,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_AAB_SED",
@@ -11176,7 +11603,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_C1",
@@ -11198,7 +11626,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_C2",
@@ -11220,7 +11649,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_C3",
@@ -11242,7 +11672,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_C4",
@@ -11264,7 +11695,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_C5",
@@ -11286,7 +11718,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_C6",
@@ -11308,7 +11741,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_C7",
@@ -11330,7 +11764,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "IANR_LC1206_C8",
@@ -11352,7 +11787,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Cira-Infantas"
     },
     {
       "codigo": "PAVAS_CACHIRA_PIEZOMETRO_1_LOCACION_CACHIRA",
@@ -11374,7 +11810,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Pavas Cáchira"
     },
     {
       "codigo": "PAVAS_CACHIRA_PIEZOMETRO_2_LOCACION_PAVAS",
@@ -11396,7 +11833,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Pavas Cáchira"
     },
     {
       "codigo": "PAVAS_CACHIRA_POZO_PROFUNDO_LOCACION_CACHIRA",
@@ -11418,7 +11856,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Pavas Cáchira"
     },
     {
       "codigo": "PAVAS_CACHIRA_POZO_1_FINCA_OKLAHOMA_COMUNIDAD",
@@ -11440,7 +11879,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Pavas Cáchira"
     },
     {
       "codigo": "PAVAS_CACHIRA_POZO_2_FINCA_OKLAHOMA_COMUNIDAD",
@@ -11462,7 +11902,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Pavas Cáchira"
     },
     {
       "codigo": "PAVAS_CACHIRA_CORREGIMIENTO_EL_TROPEZON_COMUNIDAD",
@@ -11484,7 +11925,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Pavas Cáchira"
     },
     {
       "codigo": "PAVAS_CACHIRA_HACIENDA_ARKANSAS_ESTACION_1",
@@ -11506,7 +11948,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Pavas Cáchira"
     },
     {
       "codigo": "PAVAS_CACHIRA_HACIENDA_OKLAHOMA_ESTACION_2",
@@ -11528,7 +11971,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Pavas Cáchira"
     },
     {
       "codigo": "PAVAS_CACHIRA_PUNTO_TROPEZON_ESTACION_3",
@@ -11550,7 +11994,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Pavas Cáchira"
     },
     {
       "codigo": "DONA_MARIA_P1_CIENAGA_DONA_MARIA",
@@ -11572,7 +12017,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P2_CIENAGA_DONA_MARIA",
@@ -11594,7 +12040,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_PISCINA_LOCACION_POZO_DONA_MARIA_1",
@@ -11616,7 +12063,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P1_FICHA01",
@@ -11638,7 +12086,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P2_FICHA01",
@@ -11660,7 +12109,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P3_FICHA01",
@@ -11682,7 +12132,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P4_FICHA01",
@@ -11704,7 +12155,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P5_FICHA01",
@@ -11726,7 +12178,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P6_FICHA01",
@@ -11748,7 +12201,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P7_FICHA01",
@@ -11770,7 +12224,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P8_BLANCO",
@@ -11792,7 +12247,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P1_SEDIMENTOS",
@@ -11814,7 +12270,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P2_SEDIMENTOS",
@@ -11836,7 +12293,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "DONA_MARIA_P3_SEDIMENTOS",
@@ -11858,7 +12316,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Doña María"
     },
     {
       "codigo": "TOCA_CANO_PICHO_AGUAS_ARRIBA",
@@ -11880,7 +12339,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Toca"
     },
     {
       "codigo": "TOCA_CANO_PICHO_AGUAS_ABAJO",
@@ -11902,7 +12362,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Toca"
     },
     {
       "codigo": "PETROLEA_PET_32_AGUAS_ARRIBA",
@@ -11924,7 +12385,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_PET_32_AGUAS_ABAJO",
@@ -11946,7 +12408,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_LINEA_POZO_PET_65_PUNTO_1_DIQUE_AGUAS_ARRIBA",
@@ -11968,7 +12431,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_LINEA_POZO_PET_65_PUNTO_1_DIQUE_AGUAS_ABAJO",
@@ -11990,7 +12454,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_LINEA_POZO_PET_65_PUNTO_2_GRAPA_AGUAS_ARRIBA",
@@ -12012,7 +12477,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_LINEA_POZO_PET_65_PUNTO_2_GRAPA_AGUAS_ABAJO",
@@ -12034,7 +12500,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_HUMEDAL_N_3",
@@ -12056,7 +12523,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_EST_1_CA_PET_32",
@@ -12078,7 +12546,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_EST_2_CA_PET_32",
@@ -12100,7 +12569,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_EST_3_CA_PET_32",
@@ -12122,7 +12592,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_RUIDO_AMBIENTAL_1_PET_32",
@@ -12144,7 +12615,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_RUIDO_AMBIENTAL_2_PET_32",
@@ -12166,7 +12638,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_RUIDO_EMISION_1_PET_32",
@@ -12188,7 +12661,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P1_DIQUE_L_PET_65",
@@ -12210,7 +12684,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P2_DIQUE_L_PET_65",
@@ -12232,7 +12707,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P3_DIQUE_L_PET_65",
@@ -12254,7 +12730,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_DIQUE_PET_65_BLANCO",
@@ -12276,7 +12753,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P1_GRAPA_L_PET_65",
@@ -12298,7 +12776,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P2_GRAPA_L_PET_65",
@@ -12320,7 +12799,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P3_GRAPA_L_PET_65",
@@ -12342,7 +12822,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_BLANCO_GRAPA_L_PET_65",
@@ -12364,7 +12845,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P1_POZO_PET_32",
@@ -12386,7 +12868,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P2_POZO_PET_32",
@@ -12408,7 +12891,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P1_AREA_ALEDANA_PET_32",
@@ -12430,7 +12914,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P2_AREA_ALEDANA_PET_32",
@@ -12452,7 +12937,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_BLANCO_PET_32",
@@ -12474,7 +12960,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P1_PET_232",
@@ -12496,7 +12983,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P2_PET_232",
@@ -12518,7 +13006,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P3_PET_232",
@@ -12540,7 +13029,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P4_PET_232",
@@ -12562,7 +13052,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P5_PET_232",
@@ -12584,7 +13075,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_P6_PET_232",
@@ -12606,7 +13098,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_PET_232_BLANCO",
@@ -12628,7 +13121,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_ID_17_LINEA_PET_65",
@@ -12650,7 +13144,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "PETROLEA_ID_22_LINEA_PET_65",
@@ -12672,7 +13167,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Petrolea"
     },
     {
       "codigo": "BARRANCA_LEBRIJA_P1_CIENAGA_PUNTO_1",
@@ -12694,7 +13190,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Barranca Lebrija"
     },
     {
       "codigo": "BARRANCA_LEBRIJA_P2_CIENAGA_PUNTO_2",
@@ -12716,7 +13213,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Barranca Lebrija"
     },
     {
       "codigo": "BARRANCA_LEBRIJA_P3_CIENAGA_PUNTO_3",
@@ -12738,7 +13236,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Barranca Lebrija"
     },
     {
       "codigo": "BARRANCA_LEBRIJA_P4_CIENAGA_PUNTO_4",
@@ -12760,7 +13259,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Barranca Lebrija"
     },
     {
       "codigo": "BARRANCA_LEBRIJA_P5_CIENAGA_PUNTO_5",
@@ -12782,7 +13282,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Barranca Lebrija"
     },
     {
       "codigo": "BARRANCA_LEBRIJA_CAMPO_AMALIA",
@@ -12804,7 +13305,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Barranca Lebrija"
     },
     {
       "codigo": "BARRANCA_LEBRIJA_ALJIBE_1",
@@ -12826,7 +13328,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Barranca Lebrija"
     },
     {
       "codigo": "BARRANCA_LEBRIJA_PIEZOMETRO_BL7",
@@ -12848,7 +13351,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Barranca Lebrija"
     },
     {
       "codigo": "COLORADO_RA34",
@@ -12870,7 +13374,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_RA51",
@@ -12892,7 +13397,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_RA54",
@@ -12914,7 +13420,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_RA55",
@@ -12936,7 +13443,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_RA56",
@@ -12958,7 +13466,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P1_PUNTO_RIEGO",
@@ -12980,7 +13489,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P2_PUNTO_RIEGO",
@@ -13002,7 +13512,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P1",
@@ -13024,7 +13535,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P2",
@@ -13046,7 +13558,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P3",
@@ -13068,7 +13581,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P4",
@@ -13090,7 +13604,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P5",
@@ -13112,7 +13627,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P6",
@@ -13134,7 +13650,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P7",
@@ -13156,7 +13673,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P8",
@@ -13178,7 +13696,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P1_AGUA",
@@ -13200,7 +13719,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "COLORADO_P2_AGUA",
@@ -13222,7 +13742,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Colorado"
     },
     {
       "codigo": "LAS_QUINCHAS_CANO_ZAMBITO_AGUAS_ARRIBA",
@@ -13244,7 +13765,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_CANO_ZAMBITO_AGUAS_ABAJO",
@@ -13266,7 +13788,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_CIENAGA_ZAMBITO_AGUAS_ARRIBA",
@@ -13288,7 +13811,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_CIENAGA_ZAMBITO_AGUAS_ABAJO",
@@ -13310,7 +13834,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_EST1_CA_AC_1_4_5",
@@ -13332,7 +13857,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_EST2_CA_AC_2",
@@ -13354,7 +13880,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_EST3_CA_FINCADONAROSA",
@@ -13376,7 +13903,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RE_AC_145",
@@ -13398,7 +13926,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RA1_AC_145",
@@ -13420,7 +13949,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RA2_AC_145",
@@ -13442,7 +13972,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RA3_AC_145",
@@ -13464,7 +13995,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RA4_AC_145",
@@ -13486,7 +14018,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RE_AC_2",
@@ -13508,7 +14041,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RA1_AC_2",
@@ -13530,7 +14064,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RA2_AC_2",
@@ -13552,7 +14087,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RA3_AC_2",
@@ -13574,7 +14110,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "LAS_QUINCHAS_RA4_AC_2",
@@ -13596,7 +14133,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Las Quinchas"
     },
     {
       "codigo": "PLANTA_PLATO_PUNTO_1_SUELOS_TANQUES",
@@ -13618,7 +14156,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Planta Plato"
     },
     {
       "codigo": "PLANTA_PLATO_PUNTO_2_SUELOS_TANQUES",
@@ -13640,7 +14179,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Planta Plato"
     },
     {
       "codigo": "PLANTA_PLATO_PUNTO_3_SUELOS_TANQUES",
@@ -13662,7 +14202,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Planta Plato"
     },
     {
       "codigo": "PLANTA_PLATO_PUNTO_4_SUELOS_TANQUES",
@@ -13684,7 +14225,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Planta Plato"
     },
     {
       "codigo": "PLANTA_PLATO_PUNTO_5_SUELOS_TANQUES",
@@ -13706,7 +14248,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Planta Plato"
     },
     {
       "codigo": "PLANTA_PLATO_PUNTO_6_SUELO",
@@ -13728,7 +14271,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Planta Plato"
     },
     {
       "codigo": "PLANTA_PLATO_PUNTO_7_SUELO",
@@ -13750,7 +14294,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Planta Plato"
     },
     {
       "codigo": "PLANTA_PLATO_PUNTO_8_SUELO",
@@ -13772,7 +14317,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Planta Plato"
     },
     {
       "codigo": "TOTUMAL_TOT6_PISCINA_1",
@@ -13794,7 +14340,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT6_PISCINA_2",
@@ -13816,7 +14363,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT6_PISCINA_3",
@@ -13838,7 +14386,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT3_PISCINA_1",
@@ -13860,7 +14409,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT3_PISCINA_2",
@@ -13882,7 +14432,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT3_PISCINA_3",
@@ -13904,7 +14455,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_CANO_CABEZAS",
@@ -13926,7 +14478,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_CANO_CABEZAS_TOTUMAL_6",
@@ -13948,7 +14501,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_CANO_CABEZAS_TOTUMAL_2",
@@ -13970,7 +14524,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_CANO_CABEZAS_TOTUMAL_2_2",
@@ -13992,7 +14547,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_CANO_NN_TOTUMAL_5",
@@ -14014,7 +14570,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_CANO_NN_TOTUMAL_5_2",
@@ -14036,7 +14593,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_1",
@@ -14058,7 +14616,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_2",
@@ -14080,7 +14639,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_3",
@@ -14102,7 +14662,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_4",
@@ -14124,7 +14685,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT6_PISCINA_1_SUELO",
@@ -14146,7 +14708,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT6_PISCINA_2_SUELO",
@@ -14168,7 +14731,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT6_PISCINA_3_SUELO",
@@ -14190,7 +14754,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT3_PISCINA_1_SUELO",
@@ -14212,7 +14777,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT3_PISCINA_2_SUELO",
@@ -14234,7 +14800,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT3_PISCINA_3_SUELO",
@@ -14256,7 +14823,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_1_SUELO",
@@ -14278,7 +14846,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_2_SUELO",
@@ -14300,7 +14869,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_3_SUELO",
@@ -14322,7 +14892,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_4_SUELO",
@@ -14344,7 +14915,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_1_TOTUMAL_2",
@@ -14366,7 +14938,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_2_TOTUMAL_2",
@@ -14388,7 +14961,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_3_TOTUMAL_2",
@@ -14410,7 +14984,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_4_TOTUMAL_2",
@@ -14432,7 +15007,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_1_TOTUMAL_3",
@@ -14454,7 +15030,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_2_TOTUMAL_3",
@@ -14476,7 +15053,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_3_TOTUMAL_3",
@@ -14498,7 +15076,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_4_TOTUMAL_3",
@@ -14520,7 +15099,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_1_TOTUMAL_5",
@@ -14542,7 +15122,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_2_TOTUMAL_5",
@@ -14564,7 +15145,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_3_TOTUMAL_5",
@@ -14586,7 +15168,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_4_TOTUMAL_5",
@@ -14608,7 +15191,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_1_TOTUMAL_6",
@@ -14630,7 +15214,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_2_TOTUMAL_6",
@@ -14652,7 +15237,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_3_TOTUMAL_6",
@@ -14674,7 +15260,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_SUELO_4_TOTUMAL_6",
@@ -14696,7 +15283,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT6_PISCINA_1_SEDIMENTO",
@@ -14718,7 +15306,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT6_PISCINA_2_SEDIMENTO",
@@ -14740,7 +15329,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT6_PISCINA_3_SEDIMENTO",
@@ -14762,7 +15352,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT3_PISCINA_1_SEDIMENTO",
@@ -14784,7 +15375,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT3_PISCINA_2_SEDIMENTO",
@@ -14806,7 +15398,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT3_PISCINA_3_SEDIMENTO",
@@ -14828,7 +15421,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_1_SEDIMENTO",
@@ -14850,7 +15444,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_2_SEDIMENTO",
@@ -14872,7 +15467,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_3_SEDIMENTO",
@@ -14894,7 +15490,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_TOT5_PISCINA_4_SEDIMENTO",
@@ -14916,7 +15513,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_ESTACION_1_TOTUMAL_2_3_5_6",
@@ -14938,7 +15536,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_ESTACION_2_TOTUMAL_2_3_5_6",
@@ -14960,7 +15559,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     },
     {
       "codigo": "TOTUMAL_ESTACION_3_TOTUMAL_2_3_5_6",
@@ -14982,7 +15582,8 @@
       "horas_exposicion": 0,
       "duracion_retiro_min": 30,
       "frecuencia": "unica",
-      "ultimo_monitoreo": ""
+      "ultimo_monitoreo": "",
+      "campo": "Totumal"
     }
   ],
   "alojamientos": [

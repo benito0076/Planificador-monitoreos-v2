@@ -73,12 +73,14 @@ def seleccionar(repo: Repositorio, sel: dict) -> list:
     modo = sel.get("modo", "todos")
     if modo == "vencen":
         hasta = date.fromisoformat(sel.get("hasta") or (date.today() + timedelta(days=30)).isoformat())
-        return [p for p in activos if (f := p.proxima_fecha()) is not None and f <= hasta]
+        activos = [p for p in activos if (f := p.proxima_fecha()) is not None and f <= hasta]
     if modo == "matriz":
-        return [p for p in activos if p.matriz in sel.get("matrices", [])]
+        activos = [p for p in activos if p.matriz in sel.get("matrices", [])]
     if modo == "codigos":
         cods = set(sel.get("codigos", []))
-        return [p for p in activos if p.codigo in cods]
+        activos = [p for p in activos if p.codigo in cods]
+    if campos := set(sel.get("campos") or []):  # filtro adicional sobre cualquier modo
+        activos = [p for p in activos if campos & set(p.campos())]
     return activos
 
 
