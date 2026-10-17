@@ -401,57 +401,1361 @@
   ],
   "equipos": [
     {
-      "codigo": "MULTI-01",
+      "codigo": "1043-C",
+      "tipo": "analizador_pm",
+      "descripcion": "Analizador Aunomatico De Material Particulado (Pm) - FPI BPM-200 (S/N 107P25C0019)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1053-C",
+      "tipo": "analizador_nh3",
+      "descripcion": "Analizador Automatico De Amoniaco (Hn3) - FPI AQMS-650 (S/N 141P2610007)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1054-C",
+      "tipo": "analizador_nh3",
+      "descripcion": "Analizador Automatico De Amoniaco (Nh3) - FPI AQMS-650 (S/N 141P2610008)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1051-C",
+      "tipo": "analizador_nh3",
+      "descripcion": "Analizador Automatico De Amoniaco (Nh3) - FPI AQMS-650 (S/N 141P261000B)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1052-C",
+      "tipo": "analizador_nh3",
+      "descripcion": "Analizador Automatico De Amoniaco (Nh3) - FPI AQMS-650 (S/N 141P2610009)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1044-C",
+      "tipo": "analizador_trs",
+      "descripcion": "Analizador Automatico De Azufre Total Reducido (Trs) - FPI AQMS-501 (S/N 140P24A000F)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1045-C",
+      "tipo": "analizador_trs",
+      "descripcion": "Analizador Automatico De Azufre Total Reducido (Trs) - FPI AQMS-501 (S/N 140P24A000D)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1046-C",
+      "tipo": "analizador_trs",
+      "descripcion": "Analizador Automatico De Azufre Total Reducido (Trs) - FPI AQMS-501 (S/N 140P24A000E)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1047-C",
+      "tipo": "analizador_trs",
+      "descripcion": "Analizador Automatico De Azufre Total Reducido (Trs) - FPI AQMS-501 (S/N 140P24A000B)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1038-C",
+      "tipo": "analizador_pm",
+      "descripcion": "Analizador Automatico De Material Particulado (Pm) - FPI BPM-200 (S/N 107P25C000B)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1039-C",
+      "tipo": "analizador_pm",
+      "descripcion": "Analizador Automatico De Material Particulado (Pm) - FPI BPM-200 (S/N 107P25C0015)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1040-C",
+      "tipo": "analizador_pm",
+      "descripcion": "Analizador Automatico De Material Particulado (Pm) - FPI BPM-200 (S/N 107P25C000A)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1041-C",
+      "tipo": "analizador_pm",
+      "descripcion": "Analizador Automatico De Material Particulado (Pm) - FPI BPM-200 (S/N 107P25C0008)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1042-C",
+      "tipo": "analizador_pm",
+      "descripcion": "Analizador Automatico De Material Particulado (Pm) - FPI BPM-200 (S/N 107P25C0007)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1056-C",
+      "tipo": "analizador_h2s",
+      "descripcion": "Analizador Automatico De Sulfuro De Hidrogeno (H2S) - FPI AQMS-550 (S/N 140P2610012)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1057-C",
+      "tipo": "analizador_h2s",
+      "descripcion": "Analizador Automatico De Sulfuro De Hidrogeno (H2S) - FPI AQMS-550 (S/N 140P2610010)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1058-C",
+      "tipo": "analizador_h2s",
+      "descripcion": "Analizador Automatico De Sulfuro De Hidrogeno (H2S) - FPI AQMS-550 (S/N 140P261000F)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1035-C",
+      "tipo": "analizador_so2",
+      "descripcion": "Analizador De Dioxido De Azufre (So2) - FPI AQMS-500 (S/N 130P25C0006)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1036-C",
+      "tipo": "analizador_so2",
+      "descripcion": "Analizador De Dioxido De Azufre (So2) - FPI AQMS-500 (S/N 130P25C0002)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1037-C",
+      "tipo": "analizador_so2",
+      "descripcion": "Analizador De Dioxido De Azufre (So2) - FPI AQMS-500 (S/N 130P25C0021)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "732-C",
+      "tipo": "analizador_gases_combustion",
+      "descripcion": "Analizador De Gases De Combustión - TESTO 350 (S/N 3651268)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "992-C",
+      "tipo": "analizador_gases_combustion",
+      "descripcion": "Analizador De Gases De Combustión - TESTO 350 (S/N 65436428)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "962-C",
+      "tipo": "analizador_pm",
+      "descripcion": "Analizador De Material Particulado Automatico - GRIMM EDM 180 (S/N 18A23029)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "706-C",
+      "tipo": "analizador_pm",
+      "descripcion": "Analizador De Material Particulado Automatico - GRIMM EDM 180 (S/N 18A22005)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "536-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monoxido De Carbono (Co) - SABIO 6050 (S/N 45200820)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "539-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monoxido De Carbono (Co) - SABIO 6050 (S/N 45100820)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "387-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monoxido De Carbono (Co) - HORIBA APMA-370 (S/N 2V0CY0DC)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1032-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monoxido De Carbono (Co) - FPI AQMS-400 (S/N 104P25B0028)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1033-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monoxido De Carbono (Co) - FPI AQMS-400 (S/N 104P25C0015)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1034-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monoxido De Carbono (Co) - FPI AQMS-400 (S/N 104P25B0010)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "881-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monóxido De Carbono (Co) - HORIBA APMA-370 (S/N RLPGAG8K)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "882-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monóxido De Carbono (Co) - HORIBA APMA-370 (S/N VOLGWKJV)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "895-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monóxido De Carbono (Co) - HORIBA APMA 370 (S/N NS3YUFSN)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "896-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monóxido De Carbono (Co) - HORIBA APMA 370 (S/N P8K78TFN)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "897-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monóxido De Carbono (Co) - HORIBA APMA 370 (S/N YJ2NGM38)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "899-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monóxido De Carbono (Co) - HORIBA APMA 370 (S/N SH9PSSJ0)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "900-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monóxido De Carbono (Co) - HORIBA APMA 370 (S/N V440EL8D)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "874-C",
+      "tipo": "analizador_co",
+      "descripcion": "Analizador De Monóxido De Carbono (Co) - HORIBA APMA-370 (S/N U7D80D0J)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "388-C",
+      "tipo": "analizador_so2",
+      "descripcion": "Analizador De Oxidos De Azufre (So2) - HORIBA APSA-370 (S/N MF75X0PV)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "397-C",
+      "tipo": "analizador_so2",
+      "descripcion": "Analizador De Oxidos De Azufre (Sox) - HORIBA APSA-370 (S/N 1W9EXTOR)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "398-C",
+      "tipo": "analizador_so2",
+      "descripcion": "Analizador De Oxidos De Azufre (Sox) - HORIBA APSA-370 (S/N V3BW1WJD)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "389-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA-370 (S/N N4CAMPC1)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "393-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA-370 (S/N REBXU06B)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "394-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA-370 (S/N L2561A1S)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "875-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA-370 (S/N 59UL0LXT)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "876-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA-370 (S/N AE0FUTTH)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "883-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA-370 (S/N EU9UDEHC)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "889-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA 370 (S/N YNG1LPVS)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "890-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA 370 (S/N WK00KT15)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "891-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA 370 (S/N PSW7965T)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "892-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA 370 (S/N EX4RN4SL)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "893-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA 370 (S/N S2X9CPH3)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "894-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - HORIBA APNA 370 (S/N 6PH3XVGB)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1048-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - FPI AQMS-600 (S/N 106P2610054)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1050-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - FPI AQMS-600 (S/N 106P25A001D)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1049-C",
+      "tipo": "analizador_nox",
+      "descripcion": "Analizador De Oxidos De Nitrogeno (Nox) - FPI AQMS-600 (S/N 106P2610050)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1029-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - FPI AQMS-300 (S/N 103P25B0001)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1030-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - FPI AQMS-300 (S/N 103P25C0019)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1031-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - FPI AQMS-300 (S/N 103P25B001C)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "901-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - HORIBA APOA 370 (S/N RPY6WL04)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "902-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - HORIBA APOA 370 (S/N VAL3GUE3)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "903-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - HORIBA APOA 370 (S/N NW65P7TU)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "904-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - HORIBA APOA 370 (S/N WBK9HGW3)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "907-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - HORIBA APOA (S/N JU3JF0M9)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "908-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - HORIBA APOA 370 (S/N PTKUMKS8)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "909-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - HORIBA APOA-370 (S/N GJBEBKE6)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "528-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - SABIO 6030 (S/N 56400820)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "531-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - SABIO 6030 (S/N 56300820)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "477-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - SABIO 6030 (S/N 26900619)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "905-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - HORIBA APOA 370 (S/N NPARYXJ9)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "906-C",
+      "tipo": "analizador_o3",
+      "descripcion": "Analizador De Ozono (O3) - HORIBA APOA 370 (S/N V5T7C99G)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1055-C",
+      "tipo": "analizador_h2s",
+      "descripcion": "Analizador De Sulfuro De Hidrogeno(H2S) - FPI AQMS-550 (S/N 140P2610011)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "520-C",
+      "tipo": "bomba_muestreo_aire",
+      "descripcion": "Bomba Muestreadora Para Vocs - Markel International ACTI-VOC Low Flow Pump 617-0306-01-12 (S/N 20190901002)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "212-C",
+      "tipo": "bomba_muestreo_aire",
+      "descripcion": "Bomba Personal De Muestreo De Aire - CASELLA TUFF I.S (S/N 3340211)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "821-C",
+      "tipo": "detector_gases",
+      "descripcion": "Detector De Gas - DRÄGER X-AM 2500 (S/N ARRM-0473)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1005-C",
+      "tipo": "detector_gases",
+      "descripcion": "Detector De Gases - RKI INSTRUMENTS 2XT (S/N 00290688)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "739-C",
+      "tipo": "detector_gases",
+      "descripcion": "Detector De Gases - RKI INSTRUMENTS GX - 3R (S/N 2X7010878RN/ 2210)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "196-C",
+      "tipo": "detector_gases",
+      "descripcion": "Detector De Gases Co2 - SEDA PSENSE AIR (S/N 1061308)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "215-C",
+      "tipo": "detector_gases",
+      "descripcion": "Detector Multigases - RKI INSTRUMENTS GX-2009 (S/N 4Y9071597RN)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "428-C",
+      "tipo": "vibracion",
+      "descripcion": "Equipo Medicion De Vibracion - LARSON DAVIS HVM200/TLD356B18/394C06 (S/N 1360/253455/LW18060)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "912-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT WS90 (S/N 006069)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "923-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT HP2560_C (S/N 007FA4)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "924-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT HP2560_C (S/N 007F1F)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "925-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT HP2560_C (S/N 007F20)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "926-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT HP2560_C (S/N 007F04)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "927-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT HP2560_C (S/N 007F86)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "929-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT HP2560_C (S/N 007F40)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "931-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT HP2560_C (S/N 007FB4)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "932-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT HP2560_C (S/N 007F9F)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "933-C",
+      "tipo": "estacion_meteorologica",
+      "descripcion": "Estación Meteorológica - ECOWITT HP2560_C (S/N 007FA0)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "002-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi Vol - TISCH TE-6070 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "003-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi Vol - TISCH TE-6070 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "004-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi Vol - TISCH TE-6001 (S/N 3702)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "005-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi Vol - TISCH TE-6070 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "007-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi Vol - TISCH TE-6070",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "008-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi Vol - TISCH TE-6070",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "010-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi Vol - TISCH TE-5005 (S/N 3703)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "011-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi Vol - TISCH TE-6000 (S/N N.A.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "001-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi-Vol - TISCH TE-6000 SERIES (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "009-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi-Vol - TISCH TE-6070",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "006-C",
+      "tipo": "hi_vol",
+      "descripcion": "Hi-Vol - TISCH TE-6070 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "956-C",
+      "tipo": "kit_cloro",
+      "descripcion": "Kit De Cloro - HACH DR 300 (S/N 24090B002348)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "818-C",
+      "tipo": "kit_cloro",
+      "descripcion": "Kit De Cloro Digital - HANNA INSTRUMENTS HI701 (S/N 7481915211)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "819-C",
+      "tipo": "kit_cloro",
+      "descripcion": "Kit De Cloro Digital - HANNA INSTRUMENTS HI701 (S/N 7451639211)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "859-C",
+      "tipo": "kit_cloro",
+      "descripcion": "Kit De Cloro Digital - Hanna HI 701 (S/N 08090584211)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "690-C",
+      "tipo": "kit_cloro",
+      "descripcion": "Kit De Cloro. - Hanna HI701 (S/N 7042286211)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "557-C",
+      "tipo": "detector_gases",
+      "descripcion": "Medidor Portatil Extech De Co2 Co250 - EXTECH INSTRUMENTS CO250 (S/N 10441121)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "737-C",
+      "tipo": "molinete",
+      "descripcion": "Micromolinete, Caudalimetro Flujometro Digital - GLOBAL WATER FP111 (S/N 22L102720)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1011-C",
+      "tipo": "molinete",
+      "descripcion": "Molinete - KEELCUR SPEEDY V2 (S/N SPE-202307V3-0130 S/N: F44110)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1012-C",
+      "tipo": "molinete",
+      "descripcion": "Molinete - KEELCUR SPEEDY V2 (S/N SPE-202307V3-0142)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "087-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - BGI PQ 200 (S/N 1065)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "089-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - BGI PQ 200 (S/N 1108)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "090-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - BGI PQ 200 (S/N 1107)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "318-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 121)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "320-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 120)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "232-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 0037)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "239-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 38)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "399-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N CONSOLA: 0209)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "400-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N CONSOLA: 0210)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "401-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N CONSOLA: 0211)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "402-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 0212)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "403-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 0213)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "404-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 0214)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "405-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 0215)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "406-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 0217)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "407-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 0218)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "408-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE - WILBUR (S/N 0219)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "182-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - BGI PQ-200 (S/N 1745)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "240-C",
+      "tipo": "muestreador_bajo_volumen",
+      "descripcion": "Muestreador De Bajo Volumen - TISCH TE-WILBUR (S/N 40)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1065-C",
       "tipo": "multiparametro",
-      "descripcion": "YSI ProDSS",
-      "calibracion_vence": "2026-12-28",
+      "descripcion": "Multiparametro - HANNA INSTRUMENTS HI-98194 (S/N 11090044101)",
+      "calibracion_vence": "",
       "activo": true,
       "no_disponible": []
     },
     {
-      "codigo": "MULTI-02",
+      "codigo": "1066-C",
       "tipo": "multiparametro",
-      "descripcion": "Hanna HI98194",
-      "calibracion_vence": "2026-11-08",
+      "descripcion": "Multiparametro - HANNA INSTRUMENTS HI-98194 (S/N 11070044101)",
+      "calibracion_vence": "",
       "activo": true,
       "no_disponible": []
     },
     {
-      "codigo": "SON-01",
+      "codigo": "1000-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro - HANNA INSTRUMENTS HI-98194 (S/N 10100060101 S/N: K34900736)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "714-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro - OAKTON INSTRUMENTS PCTS 50 TESTER (S/N SN: 2804287)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "731-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro - HANNA INSTRUMENTS HI 98194 (S/N SN: 07270013101 SONDA:3007987)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "189-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro - OAKTON INSTRUMENTS PCTESTR 35 (S/N 2238273)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "231-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro - OAKTON INSTRUMENTS PCTESTR 35 (S/N 2409372)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "305-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro - HYDROLAB DS5 (S/N 170500067623)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "710-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 07270051101 SONDA: K3415594)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "711-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 07350017101 SONDA: K3483601)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "712-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 07350008101 SONDA: K3450600)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "704-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 07210047101 SONDA: K3513589)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "604-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 06230050101  SONDA: K 3497537)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "605-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 06270016101 - SONDA  K3586539)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "606-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 06280004101  SONDA:  K3505537)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "607-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 06270043101  SONDA: K3577539)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "609-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 06230045101  SONDA: K 3516537)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "857-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - HANNA INSTRUMENTS HI 98194 (S/N SN: 07500020101 SONDA: K3405616)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "858-C",
+      "tipo": "multiparametro",
+      "descripcion": "Multiparametro Hanna Ph/Ce/Do - Hanna HI 98194 (S/N SN: 08050030101 SONDA: HI7698194)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "984-C",
+      "tipo": "sonda_piezometrica",
+      "descripcion": "Sonda Piezométrica - DEPTH 100mt (S/N 202404v3-14)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "985-C",
+      "tipo": "sonda_piezometrica",
+      "descripcion": "Sonda Piezométrica - DEPTH 100mt (S/N 202404V03-10)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "619-C",
+      "tipo": "sonda_piezometrica",
+      "descripcion": "Sonda Piezometrica 100M - HERO INSTRUMENTS INC WATER TAPE (S/N 19GN2101093FR)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "618-C",
+      "tipo": "sonda_piezometrica",
+      "descripcion": "Sonda Piezometrica 150M - HERO INSTRUMENTS INC WATER TAPE (S/N 192007033FR)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "750-C",
       "tipo": "sonometro",
-      "descripcion": "Clase 1",
-      "calibracion_vence": "2027-04-17",
+      "descripcion": "Sonómetro - LARSON DAVIS SOUNDTRACK LxT1 (S/N 7214)",
+      "calibracion_vence": "",
       "activo": true,
       "no_disponible": []
     },
     {
-      "codigo": "SON-02",
+      "codigo": "825-C",
       "tipo": "sonometro",
-      "descripcion": "Clase 1",
-      "calibracion_vence": "2026-09-24",
+      "descripcion": "Sonómetro - LARSON DAVIS SOUND EXPERT 821 (S/N 40034)",
+      "calibracion_vence": "",
       "activo": true,
       "no_disponible": []
     },
     {
-      "codigo": "PM10-01",
-      "tipo": "muestreador_pm10",
-      "descripcion": "Hi-Vol PM10",
-      "calibracion_vence": "2027-01-07",
+      "codigo": "824-C",
+      "tipo": "sonometro",
+      "descripcion": "Sonómetro - LARSON DAVIS SOUND EXPERT 821 (S/N 40013)",
+      "calibracion_vence": "",
       "activo": true,
       "no_disponible": []
     },
     {
-      "codigo": "PM10-02",
-      "tipo": "muestreador_pm10",
-      "descripcion": "Hi-Vol PM10",
-      "calibracion_vence": "2026-10-24",
+      "codigo": "058-C",
+      "tipo": "sonometro",
+      "descripcion": "Sonómetro - QUEST SOUND PRO BLG (S/N BLG10015)",
+      "calibracion_vence": "",
       "activo": true,
       "no_disponible": []
     },
     {
-      "codigo": "BARR-01",
-      "tipo": "barreno",
-      "descripcion": "Barreno manual acero inox.",
+      "codigo": "617-C",
+      "tipo": "sonometro",
+      "descripcion": "Sonómetro - LARSON DAVIS LXT (S/N 4626)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "612-C",
+      "tipo": "sonometro",
+      "descripcion": "Sonómetro - LARSON DAVIS Sound Track LXT (S/N 6599)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "713-C",
+      "tipo": "sonometro",
+      "descripcion": "Sonómetro - LARSON DAVIS LXT (S/N 7215)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1014-C",
+      "tipo": "sonometro",
+      "descripcion": "Sonómetro - LARSON DAVIS SOUND EXPERT 821 (S/N 40798)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1016-C",
+      "tipo": "sonometro",
+      "descripcion": "Sonómetro - LARSON DAVIS SOUND EXPERT 821 (S/N 40799)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "793-C",
+      "tipo": "termohigrometro",
+      "descripcion": "Termohigrometro - HTC-2 N.A (S/N 1906094362)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "986-C",
+      "tipo": "termohigrometro",
+      "descripcion": "Termohigrómetro - KAR HTC-2 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "987-C",
+      "tipo": "termohigrometro",
+      "descripcion": "Termohigrómetro - KAR HTC-2 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "988-C",
+      "tipo": "termohigrometro",
+      "descripcion": "Termohigrómetro - KAR HTC-2 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "989-C",
+      "tipo": "termohigrometro",
+      "descripcion": "Termohigrómetro - KAR HTC-2 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "990-C",
+      "tipo": "termohigrometro",
+      "descripcion": "Termohigrómetro - KAR HTC-2 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "991-C",
+      "tipo": "termohigrometro",
+      "descripcion": "Termohigrómetro - KAR HTC-2 (S/N N.R.)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "957-C",
+      "tipo": "turbidimetro",
+      "descripcion": "Turbidimetro - HACH 2100Q (S/N 24070D000197)",
+      "calibracion_vence": "",
+      "activo": true,
+      "no_disponible": []
+    },
+    {
+      "codigo": "1013-C",
+      "tipo": "turbidimetro",
+      "descripcion": "Turbidímetro - HANNA INSTRUMENTS HI 98703 (S/N 10100008111)",
       "calibracion_vence": "",
       "activo": true,
       "no_disponible": []
