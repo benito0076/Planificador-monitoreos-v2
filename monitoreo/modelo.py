@@ -473,7 +473,7 @@ class Repositorio:
     def _sincronizar_semilla(self) -> None:
         """Si este repositorio está en DATOS_DIR (Render) y le faltan campos o catálogos nuevos
         incluidos en el datos_monitoreo.json del repositorio, los completa sin perder cambios."""
-        if self.ruta == _DATOS_INICIALES or self.ruta.parent != CARPETA or not _DATOS_INICIALES.exists():
+        if self.ruta != ARCHIVO_DATOS or self.ruta == _DATOS_INICIALES or not _DATOS_INICIALES.exists():
             return
         try:
             semilla = json.loads(_DATOS_INICIALES.read_text(encoding="utf-8"))

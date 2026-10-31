@@ -198,6 +198,7 @@ function control(c, valor, alCambiar = null) {
       el = h("input", {type: c.tipo, id, value: valor || ""}); get = () => el.value; break;
     case "select": {
       const ops = c.opciones.map(o => Array.isArray(o) ? o : [o, o]);
+      if (valor === "" && !ops.some(([v]) => v === "")) ops.unshift(["", "— Sin asignar —"]);
       el = h("select", {id}, ops.map(([v, t], i) => h("option", {value: i, selected: v === valor}, String(t))));
       get = () => ops[+el.value][0]; break;
     }
