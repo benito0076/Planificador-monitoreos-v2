@@ -22,9 +22,11 @@ def main() -> None:
     repo = Repositorio()
     if "--demo" in sys.argv:
         from monitoreo.demo import cargar_demo
+        from monitoreo.modelo import CARPETA
         from monitoreo.planificador import plan_a_dict, planificar
         from monitoreo.reportes import exportar_todo, imprimir_plan
-        cargar_demo(repo)
+        repo = Repositorio(CARPETA / "datos_demo.json")
+        cargar_demo(repo, respaldar=False)
         plan = planificar(repo, [p for p in repo.puntos if p.activo], date.today() + timedelta(days=1),
                           nombre="Demo")
         imprimir_plan(plan, repo.config)

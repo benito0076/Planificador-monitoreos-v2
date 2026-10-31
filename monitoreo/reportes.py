@@ -403,7 +403,8 @@ def exportar_ics(plan: Plan, repo: Repositorio, ruta: Path, persona: str | None 
 def exportar(plan: Plan, repo: Repositorio, formato: str, persona: str | None = None) -> Path:
     """Genera un archivo en la carpeta de salidas y devuelve su ruta."""
     CARPETA_SALIDAS.mkdir(exist_ok=True)
-    base = CARPETA_SALIDAS / nombre_archivo(plan.nombre)
+    sufijo_id = f"_{plan.id[-4:]}" if plan.id else ""
+    base = CARPETA_SALIDAS / (nombre_archivo(plan.nombre) + sufijo_id)
     if formato == "csv":
         destino = base.with_suffix(".csv")
         exportar_csv(plan, destino)

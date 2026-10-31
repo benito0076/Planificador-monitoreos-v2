@@ -9,9 +9,10 @@ import urllib.error
 import urllib.request
 
 from .modelo import (ARCHIVO_CACHE_OSRM, BASE, LAB, PREF_ALOJ, PREF_CAMP, UMBRAL_SNAP_M,
-                     Configuracion, Punto, Repositorio, candado)
+                     Configuracion, Punto, Repositorio, candado, escribir_atomico)
 
 AGENTE = {"User-Agent": "planificador-monitoreo/3.0"}
+_candado_osrm = __import__("threading").Lock()
 
 
 def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
@@ -31,11 +32,13 @@ def leer_cache_osrm() -> dict:
 
 
 def guardar_cache_osrm(cache: dict) -> None:
+    if not cache:
+        return
     with candado:
         try:
             actual = leer_cache_osrm()
             actual.update(cache)
-            ARCHIVO_CACHE_OSRM.write_text(json.dumps(actual), encoding="utf-8")
+            escribir_atomico(ARCHIVO_CACHE_OSRM, json.dumps(actual))
         except OSError:
             pass
 
@@ -226,7 +229,7 @@ def trazado_osrm(coords: list[tuple[float, float]], url: str, cache: dict) -> li
         return cache[clave]
     locs = ";".join(f"{lon:.6f},{lat:.6f}" for lat, lon in coords)
     q = f"{url}/route/v1/driving/{locs}?overview=full&geometries=geojson"
-    with candado:
+    with _candado_osrm:
         espera = 1.0 - (time_mod.monotonic() - _ultima_consulta_ruta)
         if espera > 0:
             time_mod.sleep(espera)  # servidor público: ~1 consulta/segundo

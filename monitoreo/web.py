@@ -153,6 +153,10 @@ def atender(repo: Repositorio, metodo: str, partes: list[str], q: dict, cuerpo):
             for c in ESQUEMA_CONFIG:
                 if c.requerido and not getattr(nuevo, c.nombre):
                     raise ErrorUsuario(f"'{c.etiqueta}' es obligatorio")
+            try:
+                normalizar(nuevo)
+            except ValueError as e:
+                raise ErrorUsuario(f"Configuración no válida: {e}") from e
             repo.config = nuevo
             repo.guardar()
             return datos_json(repo)
@@ -293,8 +297,16 @@ def crear_manejador(repo: Repositorio, usuario: str = "", clave: str = ""):
             try:
                 n = int(self.headers.get("Content-Length") or 0)
                 cuerpo = json.loads(self.rfile.read(n).decode("utf-8")) if n else {}
-                with candado:
-                    r = atender(repo, metodo, [p for p in ruta[5:].split("/") if p], parse_qs(url.query), cuerpo)
+                partes = [p for p in ruta[5:].split("/") if p]
+                # /api/programacion/<pid>/trazados puede tardar varios segundos consultando OSRM:
+                # leemos el plan bajo candado y calculamos los trazados fuera del candado.
+                if metodo == "GET" and len(partes) == 3 and partes[0] == "programacion" and partes[2] == "trazados":
+                    with candado:
+                        plan = evaluar_plan(repo, leer_prog(repo, partes[1]))
+                    r = trazados(plan, repo)
+                else:
+                    with candado:
+                        r = atender(repo, metodo, partes, parse_qs(url.query), cuerpo)
             except ErrorUsuario as e:
                 return self._json(400, {"error": str(e)})
             except (ValueError, KeyError, TypeError) as e:

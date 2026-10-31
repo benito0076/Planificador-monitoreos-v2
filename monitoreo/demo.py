@@ -7,7 +7,9 @@ from datetime import date, timedelta
 from .modelo import Alojamiento, Configuracion, Equipo, Persona, Punto, Repositorio, Vehiculo
 
 
-def cargar_demo(repo: Repositorio) -> None:
+def cargar_demo(repo: Repositorio, respaldar: bool = True) -> None:
+    if respaldar:
+        repo.respaldar()
     hoy = date.today()
     en = lambda dias: (hoy + timedelta(days=dias)).isoformat()
     repo.config = Configuracion(

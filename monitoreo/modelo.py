@@ -343,6 +343,27 @@ def _crear(cls, d: dict):
     return cls(**{k: v for k, v in d.items() if k in nombres})
 
 
+def _validar_coords(lat: float, lon: float, contexto: str = "") -> tuple[float, float]:
+    lat, lon = float(lat), float(lon)
+    pref = f"{contexto}: " if contexto else ""
+    if not (-90.0 <= lat <= 90.0):
+        raise ValueError(f"{pref}latitud fuera de rango (-90 a 90): {lat}")
+    if not (-180.0 <= lon <= 180.0):
+        raise ValueError(f"{pref}longitud fuera de rango (-180 a 180): {lon}")
+    return lat, lon
+
+
+def escribir_atomico(ruta: Path, texto: str) -> None:
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    tmp = ruta.with_name(f"{ruta.name}.{uuid.uuid4().hex[:6]}.tmp")
+    try:
+        tmp.write_text(texto, encoding="utf-8")
+        tmp.replace(ruta)
+    except OSError:
+        tmp.unlink(missing_ok=True)
+        raise
+
+
 def normalizar(obj) -> None:
     """Valida y normaliza un registro; lanza ValueError si no es válido."""
     if isinstance(obj, Punto):
@@ -353,21 +374,66 @@ def normalizar(obj) -> None:
             raise ValueError(f"matriz '{obj.matriz}' no válida")
         if obj.frecuencia not in FRECUENCIAS:
             raise ValueError(f"frecuencia '{obj.frecuencia}' no válida")
-        obj.lat, obj.lon = float(obj.lat), float(obj.lon)
+        if obj.gerencia and obj.gerencia not in GERENCIAS:
+            raise ValueError(f"gerencia '{obj.gerencia}' no válida")
+        obj.lat, obj.lon = _validar_coords(obj.lat, obj.lon, obj.codigo)
+        if obj.duracion_min <= 0:
+            raise ValueError("la duración de muestreo debe ser mayor a 0 minutos")
+        if obj.acceso_min < 0:
+            raise ValueError("el tiempo de caminata no puede ser negativo")
+        if obj.personas_min < 1:
+            raise ValueError("personas mínimas debe ser al menos 1")
+        if obj.max_horas_preservacion < 0 or obj.horas_exposicion < 0:
+            raise ValueError("las horas de preservación/exposición no pueden ser negativas")
+        if obj.horas_exposicion > 0 and obj.duracion_retiro_min <= 0:
+            raise ValueError("la duración del retiro debe ser mayor a 0 minutos")
         obj.equipos = [e.strip().lower() for e in obj.equipos if e.strip()]
         for h in (obj.hora_desde, obj.hora_hasta):
             if h:
                 parse_hora(h)
+        if obj.hora_desde and obj.hora_hasta and parse_hora(obj.hora_desde) >= parse_hora(obj.hora_hasta):
+            raise ValueError("la hora de inicio de ventana debe ser anterior a la hora fin")
     elif isinstance(obj, Vehiculo):
         obj.placa = obj.placa.strip().upper()
+        if not obj.placa:
+            raise ValueError("la placa es obligatoria")
+        if obj.capacidad < 1:
+            raise ValueError("la capacidad del vehículo debe ser al menos 1")
+        if obj.velocidad_kmh <= 0:
+            raise ValueError("la velocidad promedio debe ser mayor a 0 km/h")
+        if obj.rendimiento_km_l <= 0:
+            raise ValueError("el rendimiento debe ser mayor a 0 km/L")
+        if obj.costo_dia < 0:
+            raise ValueError("el costo por día no puede ser negativo")
     elif isinstance(obj, Equipo):
         obj.codigo, obj.tipo = obj.codigo.strip().upper(), obj.tipo.strip().lower()
+        if not obj.codigo or not obj.tipo:
+            raise ValueError("código y tipo de equipo son obligatorios")
     elif isinstance(obj, Persona):
         obj.nombre = obj.nombre.strip()
+        if not obj.nombre:
+            raise ValueError("el nombre es obligatorio")
         obj.competencias = [c for c in obj.competencias if c in MATRICES]
     elif isinstance(obj, Alojamiento):
         obj.nombre = obj.nombre.strip()
-        obj.lat, obj.lon = float(obj.lat), float(obj.lon)
+        if not obj.nombre:
+            raise ValueError("el nombre del alojamiento es obligatorio")
+        obj.lat, obj.lon = _validar_coords(obj.lat, obj.lon, obj.nombre)
+        if obj.costo_noche_persona < 0:
+            raise ValueError("el costo por noche no puede ser negativo")
+    elif isinstance(obj, Configuracion):
+        obj.base_lat, obj.base_lon = _validar_coords(obj.base_lat, obj.base_lon, "Base")
+        if obj.usar_laboratorio and (obj.lab_lat or obj.lab_lon):
+            obj.lab_lat, obj.lab_lon = _validar_coords(obj.lab_lat, obj.lab_lon, "Laboratorio")
+        for h in (obj.hora_inicio, obj.hora_fin, obj.hora_almuerzo, obj.lab_hora_desde, obj.lab_hora_hasta):
+            if h:
+                parse_hora(h)
+        if parse_hora(obj.hora_inicio) >= parse_hora(obj.hora_fin):
+            raise ValueError("la hora de salida debe ser anterior al fin de jornada")
+        if obj.usar_laboratorio and parse_hora(obj.lab_hora_desde) >= parse_hora(obj.lab_hora_hasta):
+            raise ValueError("el horario de recepción del laboratorio no es válido")
+        if obj.tamano_cuadrilla < 1 or obj.max_dias_consecutivos < 1:
+            raise ValueError("tamaño de cuadrilla y máx. días consecutivos deben ser al menos 1")
     for f in fields(obj):
         v = getattr(obj, f.name)
         if f.type in ("str",) and isinstance(v, str):
@@ -406,9 +472,15 @@ class Repositorio:
     def guardar(self) -> None:
         d = {ent: [asdict(x) for x in self.lista(ent)] for ent in ESQUEMAS}
         d["config"] = asdict(self.config)
-        tmp = self.ruta.with_suffix(".tmp")
-        tmp.write_text(json.dumps(d, indent=2, ensure_ascii=False), encoding="utf-8")
-        tmp.replace(self.ruta)
+        escribir_atomico(self.ruta, json.dumps(d, indent=2, ensure_ascii=False))
+
+    def respaldar(self) -> Path | None:
+        """Crea una copia de seguridad (.bak.json) antes de operaciones destructivas."""
+        if not self.ruta.exists():
+            return None
+        bak = self.ruta.with_suffix(".bak.json")
+        shutil.copy2(self.ruta, bak)
+        return bak
 
     def tipos_equipo(self) -> list[str]:
         return sorted({e.tipo for e in self.equipos})
@@ -440,10 +512,9 @@ class Repositorio:
         return json.loads(ruta.read_text(encoding="utf-8")) if ruta.exists() else None
 
     def guardar_programacion(self, d: dict) -> None:
-        CARPETA_PROGRAMACIONES.mkdir(exist_ok=True)
         d["modificado"] = datetime.now().isoformat(timespec="seconds")
         ruta = CARPETA_PROGRAMACIONES / f"{Path(d['id']).name}.json"
-        ruta.write_text(json.dumps(d, indent=1, ensure_ascii=False), encoding="utf-8")
+        escribir_atomico(ruta, json.dumps(d, indent=1, ensure_ascii=False))
 
     def eliminar_programacion(self, pid: str) -> None:
         (CARPETA_PROGRAMACIONES / f"{Path(pid).name}.json").unlink(missing_ok=True)

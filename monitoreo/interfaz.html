@@ -303,7 +303,7 @@ const COLUMNAS = {
   personal: ["nombre", "cargo", "competencias", "conduce", "habilitado_hasta", "activo"],
   vehiculos: ["placa", "descripcion", "capacidad", "es_4x4", "rendimiento_km_l", "costo_dia", "documentos_hasta", "activo"],
   equipos: ["codigo", "tipo", "descripcion", "calibracion_vence", "activo"],
-  puntos: ["codigo", "nombre", "matriz", "duracion_min", "prioridad", "frecuencia", "ultimo_monitoreo", "activo"],
+  puntos: ["codigo", "nombre", "matriz", "gerencia", "campo", "duracion_min", "prioridad", "frecuencia", "ultimo_monitoreo", "activo"],
   alojamientos: ["nombre", "lat", "lon", "costo_noche_persona", "activo"],
 };
 const COLOR_MATRIZ = {agua: "#2563eb", aire: "#64748b", suelo: "#92400e", ruido: "#9333ea", sedimento: "#a16207",
@@ -419,9 +419,18 @@ function vPlanificar(m) {
   const gerencias = control({nombre: "g", etiqueta: "Gerencia", tipo: "multi", opciones: E.entidades.puntos.campos.find(c => c.nombre === "gerencia").opciones}, []);
   const campos = control({nombre: "c", etiqueta: "Filtrar por campo (vacío = todos)", tipo: "multi",
     opciones: [...new Set(activos.flatMap(p => (p.campo || "").split(",").map(c => c.trim()).filter(Boolean)))].sort()}, []);
-  const cajas = activos.map(p => [p.codigo, h("input", {type: "checkbox", checked: true})]);
-  const elegir = h("div", {class: "checks"}, cajas.map(([c, cb], i) =>
-    h("label", {title: activos[i].nombre}, cb, c)));
+  const cajas = activos.map(p => [p.codigo, h("input", {type: "checkbox", checked: true}), p]);
+  const buscarPunto = h("input", {placeholder: "Filtrar códigos o nombres…", oninput: () => filtrarCajas()});
+  const contCajas = h("div", {class: "checks", style: "max-height:220px;overflow:auto;padding:4px 0"});
+  function filtrarCajas() {
+    const q = buscarPunto.value.toLowerCase();
+    contCajas.replaceChildren(...cajas.filter(([c, , p]) => !q || c.toLowerCase().includes(q) || p.nombre.toLowerCase().includes(q))
+      .map(([c, cb, p]) => h("label", {title: `${p.nombre} (${p.matriz})`}, cb, c)));
+  }
+  filtrarCajas();
+  const elegir = h("div", {}, h("div", {class: "fila", style: "margin-bottom:6px"}, buscarPunto,
+    h("button", {class: "mini", type: "button", onclick: () => { cajas.forEach(([, cb]) => cb.checked = true); }}, "Todos"),
+    h("button", {class: "mini", type: "button", onclick: () => { cajas.forEach(([, cb]) => cb.checked = false); }}, "Ninguno")), contCajas);
   const opcion = h("div");
   function mostrar() {
     opcion.replaceChildren(...({vencen: [h("label", {}, "Vencen hasta ", hasta)], matriz: [matrices.el],
@@ -576,11 +585,24 @@ async function vPlan(m) {
     return s;
   }
 
+  function opcionesLugar(tareasDia, actual) {
+    const ops = [["__BASE__", "Base"]];
+    for (const a of D.alojamientos.filter(z => z.activo)) ops.push(["@" + a.nombre, "🛏 " + a.nombre]);
+    for (const t of tareasDia) ops.push(["CAMP:" + t.codigo, "⛺ Camp. " + t.codigo]);
+    if (actual && !ops.some(([k]) => k === actual)) ops.push([actual, actual]);
+    return ops;
+  }
+
   function pintarDia(v, x, destinos) {
     const i = v.indice;
-    const veh = h("select", {onchange: e => { const d = copia(); d.dias[i].vehiculo = e.target.value; recalcular(d); }},
+    const veh = h("select", {title: "Vehículo", onchange: e => { const d = copia(); d.dias[i].vehiculo = e.target.value; recalcular(d); }},
       [...new Set([x.vehiculo, ...D.vehiculos.filter(z => z.activo).map(z => z.placa)])].map(p =>
         h("option", {value: p, selected: p === x.vehiculo}, p)));
+    const origSel = h("select", {title: "Sale desde", onchange: e => { const d = copia(); d.dias[i].origen = e.target.value; recalcular(d); }},
+      opcionesLugar(x.tareas, x.origen || "__BASE__").map(([k, t]) => h("option", {value: k, selected: k === (x.origen || "__BASE__")}, "Sale: " + t)));
+    const destSel = h("select", {title: "Termina / pernocta en", onchange: e => { const d = copia(); d.dias[i].destino = e.target.value;
+      if (e.target.value !== "__BASE__" && !d.dias[i].viaje) d.dias[i].viaje = "V1"; recalcular(d); }},
+      opcionesLugar(x.tareas, x.destino || "__BASE__").map(([k, t]) => h("option", {value: k, selected: k === (x.destino || "__BASE__")}, "Fin: " + t)));
     const filas = x.tareas.map((t, j) => {
       const mover = (k) => { const d = copia(); const [tt] = d.dias[i].tareas.splice(j, 1);
         if (k === "P") d.pendientes.push({codigo: tt.codigo, tipo: tt.tipo, motivo: "quitado manualmente"});
@@ -605,7 +627,7 @@ async function vPlan(m) {
           h("div", {class: "muted chico"}, `${v.origen_nombre} → ${x.tareas.map(t => t.codigo).join(" → ") || "(sin tareas)"} → ${v.destino_nombre}`),
           h("div", {class: "muted chico"}, `${v.km} km · ${v.litros} L · ${v.duracion} · ${dinero(v.costo)}` +
             (v.equipos.length ? ` · equipos: ${v.equipos.join(", ")}` : ""))),
-        h("div", {class: "fila"}, veh,
+        h("div", {class: "fila"}, origSel, destSel, veh,
           h("button", {onclick: () => editarIntegrantes(i, x)}, `👥 ${x.integrantes.length}`),
           h("button", {onclick: () => recalcular(copia(), `optimizar/${i}`), title: "Reordenar para recorrer menos km"}, "Optimizar orden"),
           h("button", {class: "peligro", title: "Quitar el día; sus tareas pasan a 'Sin programar'", onclick: () => {

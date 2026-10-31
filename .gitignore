@@ -1,6 +1,12 @@
 *.exe
+*.tmp
+*.bak.json
 venv/
 __pycache__/
+.pytest_cache/
 .env
 build/
 dist/
+salidas/
+programaciones/
+datos_demo.json

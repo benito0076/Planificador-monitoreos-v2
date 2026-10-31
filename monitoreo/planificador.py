@@ -484,8 +484,17 @@ def planificar(repo: Repositorio, puntos: list[Punto], fecha_inicio: date, max_d
 
         def puede_pernoctar(c: Cuadrilla) -> bool:
             noches = estado[c.id].noches if c.id in estado else 0
-            return (cfg.permitir_pernocte and noches < cfg.max_noches and laborable(manana)
-                    and c.vehiculo.disponible(manana) and all(x.disponible(manana) for x in c.integrantes))
+            if not (cfg.permitir_pernocte and noches < cfg.max_noches and laborable(manana)
+                    and c.vehiculo.disponible(manana)):
+                return False
+            for x in c.integrantes:
+                if not x.disponible(manana):
+                    return False
+                ult, n = racha.get(x.nombre, (None, 0))
+                dias_hoy = (n + 1) if ult == dia - timedelta(days=1) else 1
+                if dias_hoy >= cfg.max_dias_consecutivos:
+                    return False
+            return True
 
         def valida(c: Cuadrilla, ruta: list[Tarea], destino: str | None) -> bool:
             return destino is not None and simular(ruta, c, cfg, dia, dist, origen_de(c), destino,
@@ -493,6 +502,27 @@ def planificar(repo: Repositorio, puntos: list[Punto], fecha_inicio: date, max_d
 
         rutas: dict[str, list[Tarea]] = {c.id: [] for c in cuads}
         activas = {c.id for c in cuads if hoy}
+
+        def _costo_candidato(c: Cuadrilla, ultimo: str, t: Tarea) -> float:
+            p = t.punto
+            base_km = dist.km(ultimo, t.codigo) * PESO_PRIORIDAD.get(t.prioridad, 1)
+            # Priorizar puntos con ventana horaria que cierra temprano
+            factor_ventana = 1.0
+            if p.hora_hasta:
+                h_fin = parse_hora(p.hora_hasta)
+                min_desde_inicio = (h_fin.hour * 60 + h_fin.minute) - (parse_hora(cfg.hora_inicio).hour * 60 + parse_hora(cfg.hora_inicio).minute)
+                if min_desde_inicio <= 240:
+                    factor_ventana = 0.55
+                elif min_desde_inicio <= 360:
+                    factor_ventana = 0.75
+            # Las muestras con tiempo de preservación corto o entrega a laboratorio convienen más tarde en la ruta
+            penal_preserv = 0.0
+            if t.recoge_muestra and p.max_horas_preservacion and 0 < p.max_horas_preservacion <= 6:
+                penal_preserv = 8.0 / max(p.max_horas_preservacion, 1.0)
+            # Si es retiro y la cuadrilla ya está en viaje por esa zona, darle preferencia
+            bono_retiro = 0.5 if (t.tipo == "retiro" and c.id in estado) else 1.0
+            return (base_km + penal_preserv) * factor_ventana * bono_retiro
+
         # Asignación intercalada (round-robin): cada cuadrilla toma su mejor tarea por turno,
         # lo que reparte el territorio de forma natural entre cuadrillas.
         while activas:
@@ -502,7 +532,7 @@ def planificar(repo: Repositorio, puntos: list[Punto], fecha_inicio: date, max_d
                 ruta = rutas[c.id]
                 ultimo = ruta[-1].codigo if ruta else origen_de(c)
                 cands = sorted((t for t in hoy if c.puede_hacer(t) and equipar(t, c, pool)),
-                               key=lambda t: dist.km(ultimo, t.codigo) * PESO_PRIORIDAD.get(t.prioridad, 1))
+                               key=lambda t: _costo_candidato(c, ultimo, t))
                 elegido = next((t for t in cands if valida(c, ruta + [t], BASE)), None)
                 if elegido is None and puede_pernoctar(c):
                     elegido = next((t for t in cands
@@ -647,6 +677,7 @@ def evaluar_plan(repo: Repositorio, d: dict, verbose: bool = False) -> Plan:
     pools: dict[str, dict] = {}
     ocup_p: dict[str, dict[str, str]] = {}
     ocup_v: dict[str, dict[str, str]] = {}
+    racha_eval: dict[str, tuple[date, int]] = {}
     dias: list[PlanDia] = []
     for x in d["dias"]:
         dia = date.fromisoformat(x["fecha"])
@@ -676,6 +707,12 @@ def evaluar_plan(repo: Repositorio, d: dict, verbose: bool = False) -> Plan:
             otro = ocup_p.setdefault(x["fecha"], {}).get(p.nombre)
             if otro:
                 avisos.append(f"{p.nombre} también está asignado a {otro}")
+            else:
+                ult, n_seg = racha_eval.get(p.nombre, (None, 0))
+                n_hoy = (n_seg + 1) if ult == dia - timedelta(days=1) else (n_seg if ult == dia else 1)
+                racha_eval[p.nombre] = (dia, n_hoy)
+                if n_hoy > cfg.max_dias_consecutivos:
+                    avisos.append(f"{p.nombre} acumula {n_hoy} días consecutivos (máx. {cfg.max_dias_consecutivos})")
             ocup_p[x["fecha"]][p.nombre] = cq.id
         if integ and cq.conductor is None:
             avisos.append("la cuadrilla no tiene conductor")
