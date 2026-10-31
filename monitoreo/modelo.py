@@ -468,6 +468,35 @@ class Repositorio:
         for ent, esq in ESQUEMAS.items():
             setattr(self, ent, [_crear(esq["cls"], x) for x in d.get(ent, [])])
         self.config = _crear(Configuracion, d.get("config", {}))
+        self._sincronizar_semilla()
+
+    def _sincronizar_semilla(self) -> None:
+        """Si este repositorio está en DATOS_DIR (Render) y le faltan campos o catálogos nuevos
+        incluidos en el datos_monitoreo.json del repositorio, los completa sin perder cambios."""
+        if self.ruta == _DATOS_INICIALES or self.ruta.parent != CARPETA or not _DATOS_INICIALES.exists():
+            return
+        try:
+            semilla = json.loads(_DATOS_INICIALES.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            return
+        modificado = False
+        pts_semilla = {p["codigo"]: p for p in semilla.get("puntos", []) if "codigo" in p}
+        for p in self.puntos:
+            ps = pts_semilla.get(p.codigo)
+            if ps:
+                if not p.gerencia and ps.get("gerencia"):
+                    p.gerencia = ps["gerencia"]
+                    modificado = True
+                if not p.campo and ps.get("campo"):
+                    p.campo = ps["campo"]
+                    modificado = True
+        # Si el disco persistente tenía aún los 7 equipos de demo y la semilla trae el inventario real (>20)
+        eq_semilla = semilla.get("equipos", [])
+        if len(self.equipos) <= 10 and len(eq_semilla) > 20:
+            self.equipos = [_crear(Equipo, x) for x in eq_semilla]
+            modificado = True
+        if modificado:
+            self.guardar()
 
     def guardar(self) -> None:
         d = {ent: [asdict(x) for x in self.lista(ent)] for ent in ESQUEMAS}
