@@ -18,13 +18,16 @@ header{display:flex;align-items:center;gap:16px;padding:10px 20px;background:var
 position:sticky;top:0;z-index:1000;flex-wrap:wrap}
 header h1{font-size:16px;margin:0;font-weight:650}
 nav{display:flex;gap:2px;flex-wrap:wrap}
-nav button{background:none;border:0;padding:7px 11px;border-radius:6px;color:var(--muted);cursor:pointer;font:inherit}
+nav button{background:none;border:0;padding:7px 11px;border-radius:6px;color:var(--muted);cursor:pointer;font:inherit;display:inline-flex;align-items:center;gap:5px}
 nav button:hover{background:var(--bg)}
 nav button.activo{background:var(--accent-soft);color:var(--accent);font-weight:600}
+nav .badge{font-size:11px;padding:0 6px;border-radius:99px;background:var(--bg);color:var(--muted);font-weight:500}
+nav button.activo .badge{background:var(--panel);color:var(--accent)}
 main{padding:20px;max-width:1400px;margin:0 auto}
 h2{font-size:18px;margin:0 0 12px}
 h3{font-size:15px;margin:18px 0 8px}
 .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px}
+.sticky-bar{position:sticky;top:53px;z-index:900;box-shadow:0 4px 12px rgba(0,0,0,.06)}
 .fila{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .entre{justify-content:space-between}
 .grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
@@ -41,7 +44,9 @@ input,select,textarea{font:inherit;padding:5px 8px;border:1px solid var(--line);
 input[type=checkbox]{width:auto}
 table{border-collapse:collapse;width:100%}
 th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
-th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.03em}
+th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.03em;user-select:none}
+th.ordenable{cursor:pointer}
+th.ordenable:hover{color:var(--accent)}
 tr.clic{cursor:pointer}tr.clic:hover td{background:var(--bg)}
 .tabla-scroll{overflow-x:auto}
 .muted{color:var(--muted)}.chico{font-size:12px}
@@ -50,6 +55,7 @@ tr.clic{cursor:pointer}tr.clic:hover td{background:var(--bg)}
 .proximo{background:var(--warn-soft);color:var(--warn);border-color:transparent}
 .ok{background:var(--ok-soft);color:var(--ok);border-color:transparent}
 .aviso{background:var(--warn-soft);color:var(--warn);padding:6px 10px;border-radius:6px;margin:4px 0;font-size:13px}
+.resumen-sel{background:var(--accent-soft);color:var(--accent);padding:8px 12px;border-radius:8px;font-size:13px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .error{background:var(--bad-soft);color:var(--bad);padding:8px 12px;border-radius:6px;margin:6px 0}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
 .kpi{background:var(--bg);border-radius:8px;padding:10px 12px}
@@ -71,10 +77,11 @@ dialog::backdrop{background:rgba(0,0,0,.4)}
 .form input,.form select,.form textarea{width:100%}
 .checks{display:flex;flex-wrap:wrap;gap:4px 12px}
 .checks label{flex-direction:row;align-items:center;gap:4px;color:var(--text)}
-.dia{border-left:4px solid var(--c);padding-left:12px}
+.dia{border-left:4px solid var(--c);padding-left:12px;transition:box-shadow .15s}
+.dia.resaltado{box-shadow:0 0 0 2px var(--c)}
 .dia-cab{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:flex-start}
 .tareas{width:100%;table-layout:fixed}.tareas td{padding:4px 6px}
-.tareas td:nth-child(1){width:64px}.tareas td:nth-child(2){width:30%}.tareas td:nth-child(3){width:130px}
+.tareas td:nth-child(1){width:64px}.tareas td:nth-child(2){width:28%}.tareas td:nth-child(3){width:130px}
 .tareas td:nth-child(4){width:110px}.tareas td:nth-child(6){width:150px}.tareas select{max-width:100%}
 .tareas input,.tareas select{padding:3px 6px;font-size:13px}
 details summary{cursor:pointer;color:var(--muted);font-size:13px;margin:6px 0}
@@ -140,9 +147,11 @@ const VISTAS = [["inicio", "Inicio"], ["puntos", "Puntos"], ["personal", "Person
   ["equipos", "Equipos"], ["alojamientos", "Alojamientos"], ["config", "Configuración"], ["planificar", "Planificar"],
   ["programaciones", "Programaciones"]];
 function pintarNav() {
-  $("#nav").replaceChildren(...VISTAS.map(([k, t]) =>
-    h("button", {class: estado.vista === k || (k === "programaciones" && estado.vista === "plan") ? "activo" : "",
-      onclick: () => ir(k)}, t)));
+  $("#nav").replaceChildren(...VISTAS.map(([k, t]) => {
+    const n = Array.isArray(D?.[k]) ? D[k].filter(x => x.activo !== false).length : null;
+    return h("button", {class: estado.vista === k || (k === "programaciones" && estado.vista === "plan") ? "activo" : "",
+      onclick: () => ir(k)}, t, n != null ? h("span", {class: "badge"}, String(n)) : null);
+  }));
 }
 function ir(vista, extra) {
   if (estado.vista === "plan" && estado.sucio && vista !== "plan" &&
@@ -174,7 +183,7 @@ function expandirFechas(txt) {
   }
   return [...out].sort();
 }
-function control(c, valor) {
+function control(c, valor, alCambiar = null) {
   const id = "f_" + c.nombre;
   let el, get;
   switch (c.tipo) {
@@ -194,7 +203,7 @@ function control(c, valor) {
     }
     case "multi": case "dias": {
       const ops = c.tipo === "dias" ? E.dias_semana.map((t, i) => [i, t]) : c.opciones.map(o => [o, o]);
-      const cajas = ops.map(([v, t]) => [v, h("input", {type: "checkbox", checked: (valor || []).includes(v)})]);
+      const cajas = ops.map(([v, t]) => [v, h("input", {type: "checkbox", checked: (valor || []).includes(v), onchange: alCambiar})]);
       el = h("div", {class: "checks"}, cajas.map(([v, cb], i) => h("label", {}, cb, String(ops[i][1]))));
       get = () => cajas.filter(([, cb]) => cb.checked).map(([v]) => v); break;
     }
@@ -209,6 +218,7 @@ function control(c, valor) {
       el = h("input", {id, value: valor ?? ""});
       get = () => { if (c.requerido && !el.value.trim()) throw new Error(`'${c.etiqueta}' es obligatorio`); return el.value; };
   }
+  if (alCambiar && c.tipo !== "multi" && c.tipo !== "dias") el.addEventListener("change", alCambiar);
   const ancho = ["multi", "dates", "dias"].includes(c.tipo) ? "ancho" : "";
   const etiqueta = h("span", {}, c.etiqueta + (c.requerido ? " *" : ""));
   const label = c.tipo === "bool"
@@ -286,12 +296,15 @@ async function vInicio(m) {
             [p.codigo, p.frecuencia, fechaCorta(p.ultimo), h("span", {class: "chip " + p.nivel}, p.texto)]))))));
 }
 async function cargarDemo() {
-  if (!confirm("Se cargarán datos de ejemplo y reemplazarán los actuales. ¿Continuar?")) return;
+  if (!confirm("Se cargarán datos de ejemplo y reemplazarán los actuales (se guardará un respaldo .bak.json). ¿Continuar?")) return;
   D = await conCarga($("#main"), () => api("POST", "demo")); toast("Datos de ejemplo cargados"); ir("inicio");
 }
-function tabla(cabeceras, filas, alClic) {
+function tabla(cabeceras, filas, alClic, alOrdenar = null, ordenActual = null) {
   return h("div", {class: "tabla-scroll"}, h("table", {},
-    h("thead", {}, h("tr", {}, cabeceras.map(c => h("th", {}, c)))),
+    h("thead", {}, h("tr", {}, cabeceras.map((c, j) => {
+      const flecha = ordenActual && ordenActual.col === j ? (ordenActual.asc ? " ▲" : " ▼") : "";
+      return h("th", alOrdenar ? {class: "ordenable", onclick: () => alOrdenar(j)} : {}, c + flecha);
+    }))),
     h("tbody", {}, filas.map((f, i) => h("tr", alClic ? {class: "clic", onclick: () => alClic(i)} : {},
       f.map(v => h("td", {}, v)))))));
 }
@@ -315,40 +328,109 @@ function fmtValor(v) {
   return String(v ?? "");
 }
 function vEntidad(m, ent) {
-  const esq = E.entidades[ent], lista = D[ent];
+  const esq = E.entidades[ent], lista = D[ent], cols = COLUMNAS[ent];
   const campos = Object.fromEntries(esq.campos.map(c => [c.nombre, c]));
-  const filtro = h("input", {placeholder: "Buscar…", oninput: () => pintar()});
-  const cuerpo = h("div");
+  let pagina = 0, porPagina = 100, orden = {col: 0, asc: true};
+  const filtro = h("input", {placeholder: "Buscar texto…", oninput: () => { pagina = 0; pintar(); }});
+  const selEstado = h("select", {onchange: () => { pagina = 0; pintar(); }},
+    [["", "Todos (activos/inactivos)"], ["1", "Solo activos"], ["0", "Solo inactivos"]].map(([v, t]) => h("option", {value: v}, t)));
+
+  // Filtros específicos por entidad
+  const selGerencia = ent === "puntos" ? h("select", {onchange: () => { pagina = 0; pintar(); }},
+    h("option", {value: ""}, "Todas las gerencias"),
+    ...[...new Set(lista.map(p => p.gerencia).filter(Boolean))].sort().map(g => h("option", {value: g}, g))) : null;
+  const selMatriz = ent === "puntos" ? h("select", {onchange: () => { pagina = 0; pintar(); }},
+    h("option", {value: ""}, "Todas las matrices"),
+    ...[...new Set(lista.map(p => p.matriz).filter(Boolean))].sort().map(mt => h("option", {value: mt}, mt))) : null;
+  const selCampo = ent === "puntos" ? h("select", {onchange: () => { pagina = 0; pintar(); }},
+    h("option", {value: ""}, "Todos los campos"),
+    ...[...new Set(lista.flatMap(p => (p.campo || "").split(",").map(c => c.trim()).filter(Boolean)))].sort()
+      .map(c => h("option", {value: c}, c))) : null;
+  const selTipoEq = ent === "equipos" ? h("select", {onchange: () => { pagina = 0; pintar(); }},
+    h("option", {value: ""}, "Todos los tipos"),
+    ...[...new Set(lista.map(e => e.tipo).filter(Boolean))].sort().map(tp => h("option", {value: tp}, tp))) : null;
+
+  const cuerpo = h("div"), piePag = h("div", {class: "fila entre", style: "margin-top:10px"});
   const archivo = h("input", {type: "file", accept: ".csv,.txt", style: "display:none", onchange: importar});
   const mapaDiv = ["puntos", "alojamientos"].includes(ent) ? h("div", {class: "mapa"}) : null;
+  let mp = null, capaMarcas = null;
+
   m.append(h("div", {class: "panel"},
     h("div", {class: "fila entre"}, h("h2", {}, `${esq.titulo} (${lista.length})`),
-      h("div", {class: "fila"}, filtro,
+      h("div", {class: "fila"},
         h("button", {class: "primario", onclick: () => editar(null)}, "+ Agregar"),
         h("button", {onclick: () => archivo.click()}, "Importar CSV"), archivo,
         h("a", {class: "boton", href: `/api/csv/${ent}`}, "Exportar CSV"))),
-    h("p", {class: "muted chico"}, `Haga clic en una fila para editar. El CSV exportado se puede editar en Excel y volver a importar (se actualiza por ${esq.clave}).`),
-    cuerpo), mapaDiv ? h("div", {class: "panel"}, mapaDiv) : null);
-  function pintar() {
-    const q = filtro.value.toLowerCase();
-    const vis = lista.map((x, i) => [x, i]).filter(([x]) => !q || JSON.stringify(x).toLowerCase().includes(q));
-    cuerpo.replaceChildren(tabla(COLUMNAS[ent].map(n => campos[n]?.etiqueta ?? n),
-      vis.map(([x]) => COLUMNAS[ent].map(n => n === "matriz"
-        ? h("span", {class: "chip", style: `color:${COLOR_MATRIZ[x[n]]}`}, x[n]) : fmtValor(x[n]))),
-      k => editar(vis[k][1])));
+    h("div", {class: "fila", style: "margin:8px 0"}, filtro, selGerencia, selMatriz, selCampo, selTipoEq, selEstado),
+    h("p", {class: "muted chico"}, `Haga clic en una cabecera para ordenar o en una fila para editar. El CSV exportado se actualiza por ${esq.clave}.`),
+    cuerpo, piePag), mapaDiv ? h("div", {class: "panel"}, mapaDiv) : null);
+
+  function obtenerVisibles() {
+    const q = filtro.value.trim().toLowerCase();
+    const est = selEstado.value;
+    const g = selGerencia?.value, mt = selMatriz?.value, cp = selCampo?.value, tp = selTipoEq?.value;
+    const vis = lista.map((x, i) => [x, i]).filter(([x]) => {
+      if (est === "1" && x.activo === false) return false;
+      if (est === "0" && x.activo !== false) return false;
+      if (g && x.gerencia !== g) return false;
+      if (mt && x.matriz !== mt) return false;
+      if (cp && !(x.campo || "").split(",").map(s => s.trim()).includes(cp)) return false;
+      if (tp && x.tipo !== tp) return false;
+      if (q && !JSON.stringify(x).toLowerCase().includes(q)) return false;
+      return true;
+    });
+    const colKey = cols[orden.col];
+    vis.sort(([a], [b]) => {
+      const va = a[colKey] ?? "", vb = b[colKey] ?? "";
+      const cmp = typeof va === "number" && typeof vb === "number" ? va - vb : String(va).localeCompare(String(vb), "es", {numeric: true});
+      return orden.asc ? cmp : -cmp;
+    });
+    return vis;
   }
+
+  function pintar() {
+    const vis = obtenerVisibles();
+    const total = vis.length;
+    const maxPag = Math.max(1, Math.ceil(total / porPagina));
+    if (pagina >= maxPag) pagina = maxPag - 1;
+    const tramo = vis.slice(pagina * porPagina, (pagina + 1) * porPagina);
+
+    cuerpo.replaceChildren(tabla(cols.map(n => campos[n]?.etiqueta ?? n),
+      tramo.map(([x]) => cols.map(n => n === "matriz"
+        ? h("span", {class: "chip", style: `color:${COLOR_MATRIZ[x[n]]}`}, x[n]) : fmtValor(x[n]))),
+      k => editar(tramo[k][1]),
+      colIdx => { orden = {col: colIdx, asc: orden.col === colIdx ? !orden.asc : true}; pintar(); },
+      orden));
+
+    piePag.replaceChildren(
+      h("span", {class: "muted chico"}, total ? `Mostrando ${pagina * porPagina + 1}–${Math.min((pagina + 1) * porPagina, total)} de ${total} (total registrados: ${lista.length})` : "Sin resultados para este filtro"),
+      maxPag > 1 ? h("div", {class: "fila"},
+        h("button", {class: "mini", disabled: pagina === 0, onclick: () => { pagina--; pintar(); }}, "← Anterior"),
+        h("span", {class: "chico"}, `Pág. ${pagina + 1} / ${maxPag}`),
+        h("button", {class: "mini", disabled: pagina >= maxPag - 1, onclick: () => { pagina++; pintar(); }}, "Siguiente →")) : null
+    );
+    actualizarMapa(vis);
+  }
+
+  function actualizarMapa(vis) {
+    if (!mp || !capaMarcas) return;
+    capaMarcas.clearLayers();
+    const pts = [[D.config.base_lat, D.config.base_lon]];
+    L.marker(pts[0]).addTo(capaMarcas).bindTooltip(D.config.base_nombre);
+    for (const [x, i] of vis) {
+      pts.push([x.lat, x.lon]);
+      L.circleMarker([x.lat, x.lon], {radius: 6, color: COLOR_MATRIZ[x.matriz] || "#0f766e", fillOpacity: .7,
+        opacity: x.activo === false ? .3 : 1}).addTo(capaMarcas).bindTooltip(x.codigo ? `${x.codigo} — ${x.nombre}` : x.nombre)
+        .on("click", () => editar(i));
+    }
+    if (pts.length > 1) mp.fitBounds(pts, {padding: [30, 30], maxZoom: 13});
+  }
+
   pintar();
   if (mapaDiv && window.L) setTimeout(() => {
-    const mp = L.map(mapaDiv); capaBase(mp);
-    const pts = [[D.config.base_lat, D.config.base_lon]];
-    L.marker(pts[0]).addTo(mp).bindTooltip(D.config.base_nombre);
-    lista.forEach((x, i) => {
-      pts.push([x.lat, x.lon]);
-      L.circleMarker([x.lat, x.lon], {radius: 7, color: COLOR_MATRIZ[x.matriz] || "#0f766e", fillOpacity: .7,
-        opacity: x.activo === false ? .3 : 1}).addTo(mp).bindTooltip(x.codigo ? `${x.codigo} — ${x.nombre}` : x.nombre)
-        .on("click", () => editar(i));
-    });
-    mp.fitBounds(pts, {padding: [30, 30], maxZoom: 13});
+    mp = L.map(mapaDiv); capaBase(mp);
+    capaMarcas = L.layerGroup().addTo(mp);
+    actualizarMapa(obtenerVisibles());
   }, 30);
 
   function editar(i) {
@@ -356,7 +438,7 @@ function vEntidad(m, ent) {
     const cont = h("div");
     if (ent === "puntos" && D.tipos_equipo.length)
       cont.append(h("datalist", {id: "dl_tipos"}, D.tipos_equipo.map(t => h("option", {value: t}))));
-    const extras = ent === "puntos" ? D.puntos.filter(p => p !== x).map(p => [p.lat, p.lon, p.codigo]) : [];
+    const extras = ent === "puntos" ? D.puntos.filter(p => p !== x).slice(0, 250).map(p => [p.lat, p.lon, p.codigo]) : [];
     const leer = construirForm(esq.campos, x, cont, extras);
     const err = h("div");
     cont.prepend(err);
@@ -410,16 +492,20 @@ function vPlanificar(m) {
   const manana = new Date(Date.now() + 864e5).toISOString().slice(0, 10);
   const en30 = new Date(Date.now() + 31 * 864e5).toISOString().slice(0, 10);
   const activos = D.puntos.filter(p => p.activo);
-  const modo = h("select", {onchange: () => mostrar()},
+  const resumenBox = h("div", {class: "resumen-sel ancho"});
+
+  const modo = h("select", {onchange: () => { mostrar(); actualizarResumen(); }},
     [["todos", "Todos los puntos activos"], ["vencen", "Solo los que vencen hasta una fecha"],
-     ["matriz", "Por matriz"], ["codigos", "Elegir puntos"]].map(([v, t]) => h("option", {value: v}, t)));
-  const hasta = h("input", {type: "date", value: en30});
+     ["matriz", "Por matriz"], ["codigos", "Elegir puntos manualmente"]].map(([v, t]) => h("option", {value: v}, t)));
+  const hasta = h("input", {type: "date", value: en30, onchange: actualizarResumen});
   const matrices = control({nombre: "m", etiqueta: "Matrices", tipo: "multi",
-    opciones: [...new Set(activos.map(p => p.matriz))]}, []);
-  const gerencias = control({nombre: "g", etiqueta: "Gerencia", tipo: "multi", opciones: E.entidades.puntos.campos.find(c => c.nombre === "gerencia").opciones}, []);
+    opciones: [...new Set(activos.map(p => p.matriz))]}, [], actualizarResumen);
+  const gerencias = control({nombre: "g", etiqueta: "Gerencia", tipo: "multi",
+    opciones: E.entidades.puntos.campos.find(c => c.nombre === "gerencia").opciones}, [], actualizarResumen);
   const campos = control({nombre: "c", etiqueta: "Filtrar por campo (vacío = todos)", tipo: "multi",
-    opciones: [...new Set(activos.flatMap(p => (p.campo || "").split(",").map(c => c.trim()).filter(Boolean)))].sort()}, []);
-  const cajas = activos.map(p => [p.codigo, h("input", {type: "checkbox", checked: true}), p]);
+    opciones: [...new Set(activos.flatMap(p => (p.campo || "").split(",").map(c => c.trim()).filter(Boolean)))].sort()}, [], actualizarResumen);
+
+  const cajas = activos.map(p => [p.codigo, h("input", {type: "checkbox", checked: true, onchange: actualizarResumen}), p]);
   const buscarPunto = h("input", {placeholder: "Filtrar códigos o nombres…", oninput: () => filtrarCajas()});
   const contCajas = h("div", {class: "checks", style: "max-height:220px;overflow:auto;padding:4px 0"});
   function filtrarCajas() {
@@ -429,14 +515,50 @@ function vPlanificar(m) {
   }
   filtrarCajas();
   const elegir = h("div", {}, h("div", {class: "fila", style: "margin-bottom:6px"}, buscarPunto,
-    h("button", {class: "mini", type: "button", onclick: () => { cajas.forEach(([, cb]) => cb.checked = true); }}, "Todos"),
-    h("button", {class: "mini", type: "button", onclick: () => { cajas.forEach(([, cb]) => cb.checked = false); }}, "Ninguno")), contCajas);
+    h("button", {class: "mini", type: "button", onclick: () => { cajas.forEach(([, cb]) => cb.checked = true); actualizarResumen(); }}, "Todos"),
+    h("button", {class: "mini", type: "button", onclick: () => { cajas.forEach(([, cb]) => cb.checked = false); actualizarResumen(); }}, "Ninguno")), contCajas);
+
   const opcion = h("div");
   function mostrar() {
     opcion.replaceChildren(...({vencen: [h("label", {}, "Vencen hasta ", hasta)], matriz: [matrices.el],
       codigos: [elegir]}[modo.value] || []));
   }
   mostrar();
+
+  function leerSeleccion() {
+    return {modo: modo.value, hasta: hasta.value, gerencias: gerencias.get(), matrices: matrices.get(), campos: campos.get(),
+      codigos: cajas.filter(([, cb]) => cb.checked).map(([c]) => c)};
+  }
+
+  function puntosFiltradosLocal() {
+    const sel = leerSeleccion();
+    let pts = activos;
+    if (sel.gerencias.length) pts = pts.filter(p => sel.gerencias.includes(p.gerencia));
+    if (sel.modo === "matriz") pts = pts.filter(p => sel.matrices.includes(p.matriz));
+    if (sel.modo === "codigos") {
+      const s = new Set(sel.codigos);
+      pts = pts.filter(p => s.has(p.codigo));
+    }
+    if (sel.campos.length) {
+      const sc = new Set(sel.campos);
+      pts = pts.filter(p => (p.campo || "").split(",").map(x => x.trim()).some(c => sc.has(c)));
+    }
+    return pts;
+  }
+
+  function actualizarResumen() {
+    const pts = puntosFiltradosLocal();
+    const porMat = {};
+    for (const p of pts) porMat[p.matriz] = (porMat[p.matriz] || 0) + 1;
+    const desglose = Object.entries(porMat).map(([k, v]) => `${k}: ${v}`).join(" · ");
+    const notaModo = modo.value === "vencen" ? ` (se filtrarán además los que venzan hasta ${fechaCorta(hasta.value)})` : "";
+    resumenBox.replaceChildren(
+      h("b", {}, `${pts.length} punto(s) preseleccionados${notaModo}`),
+      desglose ? h("span", {}, `— ${desglose}`) : null
+    );
+  }
+  actualizarResumen();
+
   const inicio = h("input", {type: "date", value: manana});
   const maxDias = h("input", {type: "number", value: 30, min: 1, style: "width:90px"});
   const nombre = h("input", {placeholder: "Programación desde…", style: "min-width:280px"});
@@ -444,17 +566,20 @@ function vPlanificar(m) {
     h("h2", {}, "Generar programación"),
     h("div", {class: "form"},
       h("div", {class: "ancho"}, h("span", {class: "muted"}, "Gerencia (sin marcar = todas)"), gerencias.el),
-      h("label", {class: "ancho"}, h("span", {}, "Puntos a programar"), modo), h("div", {class: "ancho"}, opcion), h("div", {class: "ancho"}, h("span", {class: "muted"}, "Filtrar por campo (se combina con lo anterior; sin marcar = todos)"), campos.el),
+      h("label", {class: "ancho"}, h("span", {}, "Puntos a programar"), modo),
+      h("div", {class: "ancho"}, opcion),
+      h("div", {class: "ancho"}, h("span", {class: "muted"}, "Filtrar por campo (se combina con lo anterior; sin marcar = todos)"), campos.el),
+      resumenBox,
       h("label", {}, h("span", {}, "Fecha de inicio"), inicio),
       h("label", {}, h("span", {}, "Máximo de días de campo"), maxDias),
       h("label", {class: "ancho"}, h("span", {}, "Nombre (opcional)"), nombre)),
     h("p", {class: "muted chico"}, "La primera vez puede tardar si consulta las rutas en OSRM; después usa la caché."),
     h("div", {class: "fila"}, h("button", {class: "primario", onclick: generar}, "Generar"),
-      h("button", {onclick: verMatriz}, "Ver matriz de tiempos")));
+      h("button", {onclick: verMatriz}, "Ver matriz de tiempos (selección actual)")));
   m.append(panel);
+
   async function generar() {
-    const sel = {modo: modo.value, hasta: hasta.value, gerencias: gerencias.get(), matrices: matrices.get(), campos: campos.get(),
-      codigos: cajas.filter(([, cb]) => cb.checked).map(([c]) => c)};
+    const sel = leerSeleccion();
     toast("Planificando…", 20000);
     const v = await conCarga(panel, () => api("POST", "planificar",
       {seleccion: sel, fecha_inicio: inicio.value, max_dias: +maxDias.value, nombre: nombre.value}));
@@ -462,10 +587,10 @@ function vPlanificar(m) {
     ir("plan", {prog: v.plan.id, vistaPlan: v});
   }
   async function verMatriz() {
-    const r = await conCarga(panel, () => api("GET", "matriz"));
+    const r = await conCarga(panel, () => api("POST", "matriz", {seleccion: leerSeleccion()}));
     const t = (titulo, mat) => [h("h3", {}, titulo), tabla(["", ...r.codigos],
       mat.map((f, i) => [h("b", {}, r.codigos[i]), ...f.map(String)]))];
-    abrirDialogo("Matriz de tiempos y distancias", [h("p", {class: "muted"}, r.fuente),
+    abrirDialogo(`Matriz de tiempos y distancias (${r.codigos.length - 1} puntos)`, [h("p", {class: "muted"}, r.fuente),
       ...t("Minutos (fila = origen)", r.minutos), ...t("Kilómetros", r.km)], [h("button", {onclick: () => dlg.close()}, "Cerrar")]);
   }
 }
@@ -494,7 +619,7 @@ async function vPlan(m) {
   const tarea = (codigo, tipo) => ({codigo, tipo, estado: "programado", hora_real: "", observacion: ""});
   const cont = h("div");
   m.append(cont);
-  let mapa = null, capa = null;
+  let mapa = null, capa = null, diaResaltado = null, filtroCuadrilla = "", soloAvisos = false, compactar = false;
 
   async function recalcular(d, ruta = "evaluar") {
     V = await conCarga(cont, () => api("POST", `programacion/${pid}/${ruta}`, d));
@@ -513,14 +638,14 @@ async function vPlan(m) {
 
   function pintar() {
     const P = V.plan, R = V.resumen, C = V.cumplimiento;
-    const nombre = h("input", {value: P.nombre, style: "font-size:16px;font-weight:600;min-width:320px",
-      onchange: e => { P.nombre = e.target.value; estado.sucio = true; pintar(); }});
-    const est = h("select", {onchange: e => { P.estado = e.target.value; estado.sucio = true; pintar(); }},
+    const nombre = h("input", {value: P.nombre, style: "font-size:16px;font-weight:600;min-width:280px",
+      onchange: e => { P.nombre = e.target.value; estado.sucio = true; marcarSucio(); }});
+    const est = h("select", {onchange: e => { P.estado = e.target.value; estado.sucio = true; marcarSucio(); }},
       Object.entries(E.estados_plan).map(([k, t]) => h("option", {value: k, selected: k === P.estado}, t)));
     const destinos = V.dias.map(d => [d.indice, `${d.semana} ${fechaCorta(P.dias[d.indice].fecha)} · ${P.dias[d.indice].cuadrilla}`]);
 
-    const cabecera = h("div", {class: "panel"},
-      h("div", {class: "fila entre"}, h("div", {class: "fila"}, nombre, est,
+    const barraAcciones = h("div", {class: "panel sticky-bar"},
+      h("div", {class: "fila entre"}, h("div", {class: "fila", id: "cab-titulo"}, nombre, est,
         estado.sucio ? h("span", {class: "sucio"}, "● cambios sin guardar") : null),
         h("div", {class: "fila"},
           h("button", {class: "primario", onclick: guardar}, "Guardar cambios"),
@@ -529,8 +654,10 @@ async function vPlan(m) {
           h("button", {onclick: async () => { const r = await api("POST", `programacion/${pid}/duplicar`);
             ir("plan", {prog: r.id}); toast("Copia creada"); }}, "Duplicar"),
           h("button", {class: "peligro", onclick: async () => { if (!confirm("¿Eliminar esta programación?")) return;
-            await api("DELETE", `programacion/${pid}`); estado.sucio = false; ir("programaciones"); }}, "Eliminar"))),
-      h("p", {class: "muted chico"}, `Inicio ${fechaCorta(P.fecha_inicio)} · ${V.fuente_tiempos}`),
+            await api("DELETE", `programacion/${pid}`); estado.sucio = false; ir("programaciones"); }}, "Eliminar"))));
+
+    const cabeceraResumen = h("div", {class: "panel"},
+      h("p", {class: "muted chico", style: "margin-top:0"}, `Inicio ${fechaCorta(P.fecha_inicio)} · ${V.fuente_tiempos}`),
       ...V.avisos_red.map(a => h("div", {class: "aviso"}, "⚠ " + a)),
       h("div", {class: "kpis"}, ...[
         [R.puntos + (R.retiros ? ` +${R.retiros}` : ""), "puntos (+retiros)"], [R.dias, "días de campo"],
@@ -558,21 +685,54 @@ async function vPlan(m) {
         ...r.errores.map(e => h("div", {class: "error"}, e)));
     }
 
-    const dias = V.dias.map(v => pintarDia(v, P.dias[v.indice], destinos));
+    // Barra de filtros de jornadas
+    const cuadrillasUnicas = [...new Set(P.dias.map(d => d.cuadrilla))];
+    const selCuad = h("select", {onchange: e => { filtroCuadrilla = e.target.value; diaResaltado = null; pintar(); }},
+      h("option", {value: ""}, "Todas las cuadrillas"),
+      ...cuadrillasUnicas.map(c => h("option", {value: c, selected: c === filtroCuadrilla}, `Cuadrilla ${c}`)));
+    const chkAvisos = h("input", {type: "checkbox", checked: soloAvisos, onchange: e => { soloAvisos = e.target.checked; pintar(); }});
+    const btnCompactar = h("button", {class: "mini", onclick: () => { compactar = !compactar; pintar(); }},
+      compactar ? "Expandir tareas" : "Compactar tarjetas");
+    const btnVerTodasMapa = diaResaltado != null ? h("button", {class: "mini", onclick: () => { diaResaltado = null; pintar(); }},
+      "Mostrar todas las rutas en el mapa") : null;
+
+    const diasVisibles = V.dias.filter(v => {
+      const x = P.dias[v.indice];
+      if (filtroCuadrilla && x.cuadrilla !== filtroCuadrilla) return false;
+      if (soloAvisos && !v.avisos.length) return false;
+      return true;
+    });
+    const dias = diasVisibles.map(v => pintarDia(v, P.dias[v.indice], destinos));
     const nuevoDia = h("button", {onclick: agregarDia}, "+ Agregar cuadrilla-día");
-    const pend = h("div", {class: "panel"}, h("h2", {}, `Sin programar (${V.pendientes.length})`),
-      V.pendientes.length ? tabla(["Punto", "Tipo", "Motivo", "Asignar a"], V.pendientes.map((t, i) => [
-        h("span", {title: t.nombre}, t.codigo), t.tipo, h("span", {class: "chico"}, t.motivo),
+
+    // Panel de puntos sin programar con buscador
+    const filtroPend = h("input", {placeholder: "Filtrar pendientes…", oninput: () => pintarTablaPend()});
+    const contTablaPend = h("div");
+    function pintarTablaPend() {
+      const q = filtroPend.value.trim().toLowerCase();
+      const visP = V.pendientes.map((t, i) => [t, i]).filter(([t]) =>
+        !q || t.codigo.toLowerCase().includes(q) || (t.nombre || "").toLowerCase().includes(q) || (t.motivo || "").toLowerCase().includes(q));
+      contTablaPend.replaceChildren(tabla(["Punto", "Nombre", "Tipo", "Motivo", "Asignar a"], visP.map(([t, i]) => [
+        h("b", {}, t.codigo), h("span", {class: "chico"}, t.nombre || ""), t.tipo, h("span", {class: "chico"}, t.motivo),
         selectMover(destinos, null, k => { const d = copia(); d.pendientes.splice(i, 1);
-          d.dias[k].tareas.push(tarea(t.codigo, t.tipo)); recalcular(d); })]))
-        : h("p", {class: "muted"}, "Todos los puntos seleccionados quedaron programados."),
+          d.dias[k].tareas.push(tarea(t.codigo, t.tipo)); recalcular(d); })])));
+    }
+    if (V.pendientes.length) pintarTablaPend();
+
+    const pend = h("div", {class: "panel"},
+      h("div", {class: "fila entre"}, h("h2", {style: "margin:0"}, `Sin programar (${V.pendientes.length})`),
+        V.pendientes.length > 5 ? filtroPend : null),
+      V.pendientes.length ? contTablaPend : h("p", {class: "muted"}, "Todos los puntos seleccionados quedaron programados."),
       h("div", {class: "fila", style: "margin-top:10px"}, agregarPunto()));
 
-    cont.replaceChildren(cabecera,
+    cont.replaceChildren(barraAcciones, cabeceraResumen,
       h("div", {class: "panel"}, h("div", {class: "fila entre"}, h("h2", {}, "Mapa de rutas"),
-        h("span", {class: "muted chico"}, "Cada color es una cuadrilla-día")), mapaDiv),
+        h("div", {class: "fila"}, btnVerTodasMapa, h("span", {class: "muted chico"}, "Haga clic en '📍 Mapa' en una jornada para aislar su recorrido"))), mapaDiv),
       h("div", {class: "panel"}, h("h2", {}, "Exportar"), exportar, salidas),
-      h("div", {class: "fila entre"}, h("h2", {style: "margin:6px 0 12px"}, "Jornadas"), nuevoDia),
+      h("div", {class: "fila entre", style: "margin:6px 0 12px"},
+        h("div", {class: "fila"}, h("h2", {style: "margin:0"}, `Jornadas (${diasVisibles.length}/${V.dias.length})`),
+          selCuad, h("label", {class: "fila chico"}, chkAvisos, "Solo con avisos"), btnCompactar),
+        nuevoDia),
       ...dias, pend);
     if (window.L) { mapa = L.map(mapaDiv); capaBase(mapa); capa = null; dibujarMapa(); }
   }
@@ -603,6 +763,11 @@ async function vPlan(m) {
     const destSel = h("select", {title: "Termina / pernocta en", onchange: e => { const d = copia(); d.dias[i].destino = e.target.value;
       if (e.target.value !== "__BASE__" && !d.dias[i].viaje) d.dias[i].viaje = "V1"; recalcular(d); }},
       opcionesLugar(x.tareas, x.destino || "__BASE__").map(([k, t]) => h("option", {value: k, selected: k === (x.destino || "__BASE__")}, "Fin: " + t)));
+
+    // Mapear horas programadas de cada tarea para rellenar hora_real al marcar día ejecutado
+    const horasProg = {};
+    for (const ev of v.eventos) if (ev.codigo && !horasProg[ev.codigo]) horasProg[ev.codigo] = ev.inicio;
+
     const filas = x.tareas.map((t, j) => {
       const mover = (k) => { const d = copia(); const [tt] = d.dias[i].tareas.splice(j, 1);
         if (k === "P") d.pendientes.push({codigo: tt.codigo, tipo: tt.tipo, motivo: "quitado manualmente"});
@@ -620,14 +785,22 @@ async function vPlan(m) {
         h("td", {}, campo("observacion", h("input", {value: t.observacion || "", placeholder: "Observación", style: "width:100%"}))),
         h("td", {}, selectMover(destinos, i, mover, true)));
     });
-    return h("div", {class: "panel dia", style: `--c:${v.color}`},
+    return h("div", {class: "panel dia" + (diaResaltado === i ? " resaltado" : ""), style: `--c:${v.color}`},
       h("div", {class: "dia-cab"},
         h("div", {}, h("b", {style: "font-size:15px"}, `${v.semana} ${fechaCorta(x.fecha)} · ${x.cuadrilla}`),
           x.viaje ? h("span", {class: "chip", style: "margin-left:6px"}, "salida " + x.viaje) : null,
           h("div", {class: "muted chico"}, `${v.origen_nombre} → ${x.tareas.map(t => t.codigo).join(" → ") || "(sin tareas)"} → ${v.destino_nombre}`),
           h("div", {class: "muted chico"}, `${v.km} km · ${v.litros} L · ${v.duracion} · ${dinero(v.costo)}` +
             (v.equipos.length ? ` · equipos: ${v.equipos.join(", ")}` : ""))),
-        h("div", {class: "fila"}, origSel, destSel, veh,
+        h("div", {class: "fila"},
+          h("button", {class: "mini", title: "Enfocar esta ruta en el mapa", onclick: () => {
+            diaResaltado = diaResaltado === i ? null : i; pintar();
+          }}, diaResaltado === i ? "📍 Viendo ruta" : "📍 Mapa"),
+          x.tareas.length ? h("button", {class: "mini", title: "Marcar todas las tareas de este día como ejecutadas", onclick: () => {
+            for (const t of x.tareas) { t.estado = "ejecutado"; if (!t.hora_real && horasProg[t.codigo]) t.hora_real = horasProg[t.codigo]; }
+            estado.sucio = true; pintar(); toast(`Día ${fechaCorta(x.fecha)} (${x.cuadrilla}) marcado como ejecutado`);
+          }}, "✓ Todo ejecutado") : null,
+          origSel, destSel, veh,
           h("button", {onclick: () => editarIntegrantes(i, x)}, `👥 ${x.integrantes.length}`),
           h("button", {onclick: () => recalcular(copia(), `optimizar/${i}`), title: "Reordenar para recorrer menos km"}, "Optimizar orden"),
           h("button", {class: "peligro", title: "Quitar el día; sus tareas pasan a 'Sin programar'", onclick: () => {
@@ -635,13 +808,13 @@ async function vPlan(m) {
             d.pendientes.push(...q.tareas.map(t => ({codigo: t.codigo, tipo: t.tipo, motivo: "día eliminado"}))); recalcular(d); }}, "✕"))),
       h("div", {class: "chico"}, x.integrantes.join(", ") || h("span", {class: "muted"}, "sin integrantes")),
       ...v.avisos.map(a => h("div", {class: "aviso"}, "⚠ " + a)),
-      x.tareas.length ? h("table", {class: "tareas"}, h("tbody", {}, filas)) : null,
+      !compactar && x.tareas.length ? h("table", {class: "tareas"}, h("tbody", {}, filas)) : null,
       h("details", {}, h("summary", {}, "Línea de tiempo"), h("table", {class: "linea-tiempo"}, h("tbody", {},
         v.eventos.map(e => h("tr", {}, h("td", {class: "muted"}, `${e.inicio}–${e.fin}`),
           h("td", {}, e.codigo ? h("b", {}, e.actividad) : e.actividad), h("td", {class: "muted"}, e.lugar)))))));
   }
   function marcarSucio() {
-    const cab = cont.querySelector(".panel .fila .fila");
+    const cab = $("#cab-titulo");
     if (cab && !cab.querySelector(".sucio")) cab.append(h("span", {class: "sucio"}, "● cambios sin guardar"));
   }
   function personasCheck(sel) {
@@ -680,12 +853,16 @@ async function vPlan(m) {
     const en = new Set([...V.plan.dias.flatMap(d => d.tareas.map(t => t.codigo)), ...V.plan.pendientes.map(t => t.codigo)]);
     const libres = D.puntos.filter(p => p.activo && !en.has(p.codigo));
     if (!libres.length) return null;
-    const s = h("select", {}, h("option", {value: ""}, "Agregar punto a la programación…"),
-      libres.map(p => h("option", {value: p.codigo}, `${p.codigo} — ${p.nombre}`)));
-    s.addEventListener("change", () => { if (!s.value) return; const p = D.puntos.find(z => z.codigo === s.value);
+    const dl = h("datalist", {id: "dl_puntos_libres"}, libres.map(p => h("option", {value: p.codigo}, `${p.nombre} (${p.matriz})`)));
+    const inp = h("input", {list: "dl_puntos_libres", placeholder: `Agregar punto (${libres.length} disponibles)…`, style: "min-width:260px"});
+    const btn = h("button", {onclick: () => {
+      const cod = inp.value.trim().toUpperCase();
+      const p = libres.find(z => z.codigo === cod);
+      if (!p) { toast("Seleccione un código válido de la lista"); return; }
       const d = copia(); d.pendientes.push({codigo: p.codigo, tipo: p.horas_exposicion > 0 ? "instalacion" : "muestreo",
-        motivo: "agregado manualmente"}); recalcular(d); });
-    return s;
+        motivo: "agregado manualmente"}); recalcular(d);
+    }}, "+ Agregar a sin programar");
+    return h("div", {class: "fila"}, dl, inp, btn);
   }
 
   let rutas = null;
@@ -702,21 +879,28 @@ async function vPlan(m) {
     for (const a of D.alojamientos) L.circleMarker([a.lat, a.lon], {radius: 6, color: "#7c3aed"}).addTo(capa).bindTooltip("🛏 " + a.nombre);
     // Trazado por carretera de la versión guardada; con cambios sin guardar, rectas entre paradas.
     const conRutas = rutas && !estado.sucio && rutas.length === V.dias.length;
-    for (const v of V.dias) {
+    const diasMapa = V.dias.filter(v => {
+      if (diaResaltado != null) return v.indice === diaResaltado;
+      if (filtroCuadrilla && V.plan.dias[v.indice].cuadrilla !== filtroCuadrilla) return false;
+      return true;
+    });
+    for (const v of diasMapa) {
       const r = conRutas ? rutas[v.indice] : null;
-      L.polyline(r ? r.linea : v.paradas, {color: v.color, weight: 4, opacity: .75,
+      L.polyline(r ? r.linea : v.paradas, {color: v.color, weight: diaResaltado === v.indice ? 5 : 4, opacity: .8,
         dashArray: !r || r.recta ? "6" : null}).addTo(capa);
     }
     const porCod = Object.fromEntries(D.puntos.map(p => [p.codigo, p]));
-    V.dias.forEach(v => V.plan.dias[v.indice].tareas.forEach((t, j) => {
+    diasMapa.forEach(v => V.plan.dias[v.indice].tareas.forEach((t, j) => {
       const p = porCod[t.codigo]; if (!p) return;
       limites.push([p.lat, p.lon]);
       L.circleMarker([p.lat, p.lon], {radius: 8, color: v.color, fillOpacity: .85}).addTo(capa)
         .bindTooltip(`${p.codigo} · ${fechaCorta(V.plan.dias[v.indice].fecha)} ${V.plan.dias[v.indice].cuadrilla} #${j + 1}`);
     }));
-    for (const t of V.pendientes) { const p = porCod[t.codigo]; if (p) { limites.push([p.lat, p.lon]);
-      L.circleMarker([p.lat, p.lon], {radius: 7, color: "#6b7280", dashArray: "3"}).addTo(capa).bindTooltip(`${p.codigo} (sin programar)`); } }
-    if (!mapa._ajustado) { mapa.fitBounds(limites, {padding: [30, 30], maxZoom: 13}); mapa._ajustado = true; }
+    if (diaResaltado == null) {
+      for (const t of V.pendientes) { const p = porCod[t.codigo]; if (p) { limites.push([p.lat, p.lon]);
+        L.circleMarker([p.lat, p.lon], {radius: 7, color: "#6b7280", dashArray: "3"}).addTo(capa).bindTooltip(`${p.codigo} (sin programar)`); } }
+    }
+    if (limites.length) mapa.fitBounds(limites, {padding: [30, 30], maxZoom: 13});
   }
   pintar();
   cargarRutas();

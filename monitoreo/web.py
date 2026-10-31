@@ -160,8 +160,12 @@ def atender(repo: Repositorio, metodo: str, partes: list[str], q: dict, cuerpo):
             repo.config = nuevo
             repo.guardar()
             return datos_json(repo)
-        case ("GET", ["matriz"]):
-            pts = [p for p in repo.puntos if p.activo]
+        case ("GET" | "POST", ["matriz"]):
+            pts = seleccionar(repo, cuerpo.get("seleccion", {})) if metodo == "POST" and cuerpo else [p for p in repo.puntos if p.activo]
+            if not pts:
+                raise ErrorUsuario("No hay puntos en la selección para calcular la matriz")
+            if len(pts) > 80:
+                raise ErrorUsuario(f"La selección tiene {len(pts)} puntos; filtre a 80 o menos para visualizar la matriz de tiempos")
             dist = Distancias(nodos(repo, pts), repo.config, verbose=False)
             vels = [v.velocidad_kmh for v in repo.vehiculos if v.activo] or [40.0]
             vel = sum(vels) / len(vels)
